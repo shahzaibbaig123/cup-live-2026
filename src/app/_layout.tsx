@@ -1,15 +1,40 @@
-import { DarkTheme, DefaultTheme, ThemeProvider } from 'expo-router';
-import { useColorScheme } from 'react-native';
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import { DarkTheme, ThemeProvider } from 'expo-router';
+import { Stack } from 'expo-router';
+import { StatusBar } from 'expo-status-bar';
 
-import { AnimatedSplashOverlay } from '@/components/animated-icon';
-import AppTabs from '@/components/app-tabs';
+import { Palette } from '@/constants/theme';
 
-export default function TabLayout() {
-  const colorScheme = useColorScheme();
+const theme = {
+  ...DarkTheme,
+  colors: {
+    ...DarkTheme.colors,
+    primary: Palette.accent,
+    background: Palette.background,
+    card: Palette.card,
+    text: Palette.text,
+    border: Palette.border,
+  },
+};
+
+const queryClient = new QueryClient({
+  defaultOptions: {
+    queries: {
+      retry: 2,
+    },
+  },
+});
+
+export default function RootLayout() {
   return (
-    <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
-      <AnimatedSplashOverlay />
-      <AppTabs />
-    </ThemeProvider>
+    <QueryClientProvider client={queryClient}>
+      <ThemeProvider value={theme}>
+        <StatusBar style="light" />
+        <Stack>
+          <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+          <Stack.Screen name="match/[id]" options={{ title: 'Match' }} />
+        </Stack>
+      </ThemeProvider>
+    </QueryClientProvider>
   );
 }

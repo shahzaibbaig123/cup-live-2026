@@ -1,18 +1,20 @@
 {
   "expo": {
-    "name": "cup-live-2026",
+    "name": "Cup Live 2026",
     "slug": "cup-live-2026",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "cuplive2026",
-    "userInterfaceStyle": "automatic",
+    "userInterfaceStyle": "dark",
     "ios": {
-      "icon": "./assets/expo.icon"
+      "icon": "./assets/images/icon.png",
+      "bundleIdentifier": "com.shahzaib.cuplive2026"
     },
     "android": {
+      "package": "com.shahzaib.cuplive2026",
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
+        "backgroundColor": "#0A0F1A",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
         "backgroundImage": "./assets/images/android-icon-background.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
@@ -28,7 +30,7 @@
       [
         "expo-splash-screen",
         {
-          "backgroundColor": "#208AEF",
+          "backgroundColor": "#0A0F1A",
           "android": {
             "image": "./assets/images/splash-icon.png",
             "imageWidth": 76
@@ -38,7 +40,8 @@
     ],
     "experiments": {
       "typedRoutes": true,
-      "reactCompiler": true
+      "reactCompiler": true,
+      "baseUrl": "/cup-live-2026"
     }
   }
 }

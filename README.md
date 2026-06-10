@@ -1,56 +1,56 @@
-# Welcome to your Expo app 👋
+# Cup Live 2026 ⚽️
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A mobile app for live FIFA World Cup 2026 updates — live scores with goal/card/substitution
+events, the full 104-match schedule, and all 12 group tables. Built with Expo / React Native.
 
-## Get started
+> Not affiliated with FIFA. Match data comes from ESPN's public API.
 
-1. Install dependencies
-
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+## Run it
 
 ```bash
-npm run reset-project
+npm install
+npx expo start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Then scan the QR code with the **Expo Go** app on your phone (or press `i` / `a` for a
+simulator).
 
-### Other setup steps
+## What's inside
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+| Tab | What it shows |
+|---|---|
+| **Matches** | Day-by-day match cards with live score and clock, auto-refreshing every 30s while games are live. Tap a card for details. |
+| **Schedule** | All 104 matches grouped by day (June 11 – July 19), auto-scrolled to today. |
+| **Groups** | The 12 group tables with advancement highlighting. |
 
-## Learn more
+The match detail screen shows a live events timeline (goals, cards, substitutions, VAR),
+venue, referee, attendance, and TV broadcasters, polling every 15s during live play.
 
-To learn more about developing your project with Expo, look at the following resources:
+## Architecture
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+- **Expo SDK 56** + TypeScript + **expo-router** (file routes in `src/app/`)
+- **@tanstack/react-query** for fetching/caching/polling — intervals adapt to match state
+- All ESPN parsing is isolated in [src/api/espn.ts](src/api/espn.ts) behind domain types in
+  [src/api/types.ts](src/api/types.ts), so the data source can be swapped (e.g. for
+  football-data.org) without touching screens
+- Dark-only theme in [src/constants/theme.ts](src/constants/theme.ts)
 
-## Join the community
+### Data endpoints (ESPN public API, no key)
 
-Join our community of developers creating universal apps.
+- Scoreboard: `site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=YYYYMMDD`
+- Match summary: `.../summary?event={id}`
+- Standings: `site.api.espn.com/apis/v2/sports/soccer/fifa.world/standings?season=2026`
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Icons
+
+App icons are generated from an inline SVG — edit and re-run:
+
+```bash
+node scripts/generate-icons.mjs
+```
+
+## Store release
+
+Builds go through [EAS](https://docs.expo.dev/build/introduction/): `npx eas build`.
+Requires an Apple Developer account ($99/yr) and a Google Play developer account ($25
+one-time). Keep FIFA trademarks out of the store name/branding.

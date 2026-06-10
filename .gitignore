@@ -41,3 +41,6 @@ example
 # generated native folders
 /ios
 /android
+
+# local dev QR code
+expo-qr.png
