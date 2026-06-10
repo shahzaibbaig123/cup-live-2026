@@ -44,3 +44,8 @@ example
 
 # local dev QR code
 expo-qr.png
+
+# AI assistant config (local only)
+CLAUDE.md
+AGENTS.md
+.claude/
