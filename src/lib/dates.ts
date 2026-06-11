@@ -3,11 +3,15 @@
 export const TOURNAMENT_START = new Date(2026, 5, 11);
 export const TOURNAMENT_END = new Date(2026, 6, 19);
 
-/** Format a Date as the YYYYMMDD string the scoreboard API expects. */
-export function toDateParam(d: Date): string {
+/**
+ * Local-timezone day key for a Date, e.g. "2026-06-12".
+ * This is the identity used to group matches by *the user's* calendar day,
+ * rather than ESPN's US-Eastern bucketing.
+ */
+export function toDayKey(d: Date): string {
   const m = String(d.getMonth() + 1).padStart(2, '0');
   const day = String(d.getDate()).padStart(2, '0');
-  return `${d.getFullYear()}${m}${day}`;
+  return `${d.getFullYear()}-${m}-${day}`;
 }
 
 export function tournamentDays(): Date[] {
@@ -64,10 +68,7 @@ export function formatDayHeader(d: Date): string {
   return dayHeaderFormat.format(d);
 }
 
-/** Local-timezone day key for grouping matches, e.g. "2026-06-11". */
+/** Local-timezone day key for an ISO instant, e.g. "2026-06-11". */
 export function localDayKey(iso: string): string {
-  const d = new Date(iso);
-  const m = String(d.getMonth() + 1).padStart(2, '0');
-  const day = String(d.getDate()).padStart(2, '0');
-  return `${d.getFullYear()}-${m}-${day}`;
+  return toDayKey(new Date(iso));
 }

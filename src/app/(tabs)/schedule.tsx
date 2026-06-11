@@ -13,7 +13,7 @@ import { MatchCard } from '@/components/match-card';
 import { ErrorView, LoadingView } from '@/components/status-views';
 import { ThemedText } from '@/components/themed-text';
 import { Palette, Spacing } from '@/constants/theme';
-import { useSchedule } from '@/hooks/use-football';
+import { useAllMatches } from '@/hooks/use-football';
 import { formatDayHeader, localDayKey } from '@/lib/dates';
 
 interface DaySection {
@@ -37,7 +37,7 @@ function buildSections(matches: Match[]): DaySection[] {
 }
 
 export default function ScheduleScreen() {
-  const { data, isLoading, isError, refetch, isRefetching } = useSchedule();
+  const { data, isLoading, isError, refetch, isRefetching } = useAllMatches();
   const listRef = useRef<SectionList<Match, DaySection>>(null);
   const sections = useMemo(() => buildSections(data ?? []), [data]);
 

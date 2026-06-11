@@ -1,6 +1,6 @@
 import { useQuery } from '@tanstack/react-query';
 
-import { getMatchDetail, getSchedule, getScoreboard, getStandings } from '@/api/espn';
+import { getMatchDetail, getSchedule, getStandings } from '@/api/espn';
 import type { Match } from '@/api/types';
 
 const LIVE_POLL_MS = 30_000;
@@ -9,22 +9,19 @@ const IDLE_POLL_MS = 5 * 60_000;
 
 const hasLiveMatch = (matches?: Match[]) => matches?.some((m) => m.status === 'in') ?? false;
 
-export function useMatchesForDate(dateParam: string) {
+/**
+ * All 104 matches in one cached query, shared by the Matches and Schedule tabs.
+ * We fetch the whole tournament and bucket by the device's local day on the
+ * client, so day boundaries follow the user's timezone — not ESPN's US-Eastern
+ * scoreboard bucketing. Polls every 30s while any match is live.
+ */
+export function useAllMatches() {
   return useQuery({
-    queryKey: ['matches', dateParam],
-    queryFn: () => getScoreboard(dateParam),
+    queryKey: ['matches'],
+    queryFn: getSchedule,
     staleTime: 15_000,
     refetchInterval: (query) =>
       hasLiveMatch(query.state.data) ? LIVE_POLL_MS : IDLE_POLL_MS,
-  });
-}
-
-export function useSchedule() {
-  return useQuery({
-    queryKey: ['schedule'],
-    queryFn: getSchedule,
-    staleTime: 5 * 60_000,
-    refetchInterval: 10 * 60_000,
   });
 }
 

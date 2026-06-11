@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useMemo, useState } from 'react';
 import { FlatList, RefreshControl, StyleSheet, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
@@ -7,17 +7,24 @@ import { MatchCard } from '@/components/match-card';
 import { EmptyView, ErrorView, LoadingView } from '@/components/status-views';
 import { ThemedText } from '@/components/themed-text';
 import { Palette, Spacing } from '@/constants/theme';
-import { useMatchesForDate } from '@/hooks/use-football';
-import { clampToTournament, toDateParam, tournamentDays } from '@/lib/dates';
+import { useAllMatches } from '@/hooks/use-football';
+import { clampToTournament, localDayKey, toDayKey, tournamentDays } from '@/lib/dates';
 
 const DAYS = tournamentDays();
 
 export default function MatchesScreen() {
   const [selected, setSelected] = useState(() =>
-    toDateParam(clampToTournament(new Date())),
+    toDayKey(clampToTournament(new Date())),
   );
-  const { data, isLoading, isError, refetch, isRefetching } =
-    useMatchesForDate(selected);
+  const { data, isLoading, isError, refetch, isRefetching } = useAllMatches();
+
+  const dayMatches = useMemo(
+    () =>
+      (data ?? [])
+        .filter((m) => localDayKey(m.date) === selected)
+        .sort((a, b) => a.date.localeCompare(b.date)),
+    [data, selected],
+  );
 
   return (
     <SafeAreaView style={styles.screen} edges={['top']}>
@@ -32,7 +39,7 @@ export default function MatchesScreen() {
           <ErrorView onRetry={refetch} />
         ) : (
           <FlatList
-            data={data}
+            data={dayMatches}
             keyExtractor={(m) => m.id}
             renderItem={({ item }) => <MatchCard match={item} />}
             contentContainerStyle={styles.listContent}

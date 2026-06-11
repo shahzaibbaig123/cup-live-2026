@@ -3,7 +3,7 @@ import { FlatList, Pressable, StyleSheet, View } from 'react-native';
 
 import { ThemedText } from '@/components/themed-text';
 import { Palette, Radius, Spacing } from '@/constants/theme';
-import { formatWeekday, isToday, toDateParam } from '@/lib/dates';
+import { formatWeekday, isToday, toDayKey } from '@/lib/dates';
 
 const CHIP_WIDTH = 52;
 const CHIP_GAP = Spacing.two;
@@ -18,7 +18,7 @@ export function DateStrip({ days, selected, onSelect }: DateStripProps) {
   const listRef = useRef<FlatList<Date>>(null);
   const selectedIndex = Math.max(
     0,
-    days.findIndex((d) => toDateParam(d) === selected),
+    days.findIndex((d) => toDayKey(d) === selected),
   );
 
   return (
@@ -27,7 +27,7 @@ export function DateStrip({ days, selected, onSelect }: DateStripProps) {
       data={days}
       horizontal
       showsHorizontalScrollIndicator={false}
-      keyExtractor={toDateParam}
+      keyExtractor={toDayKey}
       initialScrollIndex={selectedIndex}
       getItemLayout={(_, index) => ({
         length: CHIP_WIDTH + CHIP_GAP,
@@ -37,7 +37,7 @@ export function DateStrip({ days, selected, onSelect }: DateStripProps) {
       contentContainerStyle={styles.content}
       style={styles.list}
       renderItem={({ item }) => {
-        const param = toDateParam(item);
+        const param = toDayKey(item);
         const isSelected = param === selected;
         return (
           <Pressable onPress={() => onSelect(param)}>
