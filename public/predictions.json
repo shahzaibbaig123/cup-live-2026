@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-12T14:05:15+00:00",
+  "generatedAt": "2026-06-12T21:26:55+00:00",
   "meta": {
     "model": "Elo + Dixon-Coles Poisson + TimesFM form (hybrid)",
     "timesfmUsed": true,
@@ -50,13 +50,15 @@
       "awayId": "452",
       "stage": "group-stage",
       "date": "2026-06-12T19:00Z",
-      "status": "pre",
+      "status": "post",
       "pHome": 0.6816,
       "pDraw": 0.1815,
       "pAway": 0.1369,
       "predicted": "home",
       "xHome": 1,
-      "xAway": 0
+      "xAway": 0,
+      "result": "draw",
+      "score": "1-1"
     },
     "760417": {
       "home": "United States",
@@ -1102,11 +1104,11 @@
       "group": "Group H",
       "elo": 2210.1,
       "form": 0.94,
-      "winCup": 0.3012,
-      "reachFinal": 0.4562,
-      "reachR16": 0.9627,
-      "qualify": 0.9969,
-      "winGroup": 0.8093
+      "winCup": 0.2973,
+      "reachFinal": 0.4505,
+      "reachR16": 0.9638,
+      "qualify": 0.9981,
+      "winGroup": 0.8085
     },
     {
       "teamId": "202",
@@ -1115,11 +1117,11 @@
       "group": "Group J",
       "elo": 2169.6,
       "form": 1.021,
-      "winCup": 0.2498,
-      "reachFinal": 0.4052,
-      "reachR16": 0.9439,
-      "qualify": 0.9915,
-      "winGroup": 0.84
+      "winCup": 0.256,
+      "reachFinal": 0.4062,
+      "reachR16": 0.9421,
+      "qualify": 0.9919,
+      "winGroup": 0.8427
     },
     {
       "teamId": "478",
@@ -1128,11 +1130,11 @@
       "group": "Group I",
       "elo": 2114.2,
       "form": 1.008,
-      "winCup": 0.1188,
-      "reachFinal": 0.2382,
-      "reachR16": 0.8553,
-      "qualify": 0.9713,
-      "winGroup": 0.659
+      "winCup": 0.1186,
+      "reachFinal": 0.2363,
+      "reachR16": 0.8531,
+      "qualify": 0.9709,
+      "winGroup": 0.6624
     },
     {
       "teamId": "448",
@@ -1141,11 +1143,11 @@
       "group": "Group L",
       "elo": 2089.2,
       "form": 1.015,
-      "winCup": 0.0916,
-      "reachFinal": 0.1906,
-      "reachR16": 0.8363,
-      "qualify": 0.9871,
-      "winGroup": 0.6663
+      "winCup": 0.0881,
+      "reachFinal": 0.1897,
+      "reachR16": 0.831,
+      "qualify": 0.9874,
+      "winGroup": 0.6693
     },
     {
       "teamId": "205",
@@ -1154,11 +1156,11 @@
       "group": "Group C",
       "elo": 2043.5,
       "form": 1.011,
-      "winCup": 0.0396,
-      "reachFinal": 0.0954,
-      "reachR16": 0.7129,
-      "qualify": 0.9515,
-      "winGroup": 0.527
+      "winCup": 0.0406,
+      "reachFinal": 0.0989,
+      "reachR16": 0.7115,
+      "qualify": 0.9505,
+      "winGroup": 0.5279
     },
     {
       "teamId": "208",
@@ -1167,11 +1169,11 @@
       "group": "Group K",
       "elo": 2042.8,
       "form": 0.999,
-      "winCup": 0.0343,
-      "reachFinal": 0.087,
-      "reachR16": 0.6783,
-      "qualify": 0.9344,
-      "winGroup": 0.4703
+      "winCup": 0.0348,
+      "reachFinal": 0.0869,
+      "reachR16": 0.6766,
+      "qualify": 0.9311,
+      "winGroup": 0.4663
     },
     {
       "teamId": "482",
@@ -1180,11 +1182,11 @@
       "group": "Group K",
       "elo": 2036.4,
       "form": 0.996,
-      "winCup": 0.0312,
-      "reachFinal": 0.0788,
-      "reachR16": 0.6617,
-      "qualify": 0.9277,
-      "winGroup": 0.438
+      "winCup": 0.0318,
+      "reachFinal": 0.0796,
+      "reachR16": 0.6641,
+      "qualify": 0.9275,
+      "winGroup": 0.4417
     },
     {
       "teamId": "209",
@@ -1193,24 +1195,11 @@
       "group": "Group E",
       "elo": 2008.2,
       "form": 1.017,
-      "winCup": 0.0217,
-      "reachFinal": 0.0585,
-      "reachR16": 0.6297,
-      "qualify": 0.9668,
-      "winGroup": 0.4925
-    },
-    {
-      "teamId": "481",
-      "name": "Germany",
-      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
-      "group": "Group E",
-      "elo": 1997.8,
-      "form": 0.997,
-      "winCup": 0.0149,
-      "reachFinal": 0.0456,
-      "reachR16": 0.5762,
-      "qualify": 0.954,
-      "winGroup": 0.4294
+      "winCup": 0.0211,
+      "reachFinal": 0.0602,
+      "reachR16": 0.6213,
+      "qualify": 0.9634,
+      "winGroup": 0.4924
     },
     {
       "teamId": "449",
@@ -1219,24 +1208,24 @@
       "group": "Group F",
       "elo": 2005.3,
       "form": 0.964,
-      "winCup": 0.0138,
-      "reachFinal": 0.0456,
-      "reachR16": 0.5687,
-      "qualify": 0.941,
-      "winGroup": 0.4896
+      "winCup": 0.0171,
+      "reachFinal": 0.0478,
+      "reachR16": 0.569,
+      "qualify": 0.9436,
+      "winGroup": 0.4936
     },
     {
-      "teamId": "627",
-      "name": "Japan",
-      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png",
-      "group": "Group F",
-      "elo": 1989.8,
-      "form": 0.955,
-      "winCup": 0.0111,
-      "reachFinal": 0.0343,
-      "reachR16": 0.4985,
-      "qualify": 0.9239,
-      "winGroup": 0.4234
+      "teamId": "481",
+      "name": "Germany",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
+      "group": "Group E",
+      "elo": 1997.8,
+      "form": 0.997,
+      "winCup": 0.016,
+      "reachFinal": 0.0484,
+      "reachR16": 0.58,
+      "qualify": 0.9556,
+      "winGroup": 0.4308
     },
     {
       "teamId": "2869",
@@ -1245,11 +1234,11 @@
       "group": "Group C",
       "elo": 1991.2,
       "form": 0.979,
-      "winCup": 0.0107,
-      "reachFinal": 0.0357,
-      "reachR16": 0.5002,
-      "qualify": 0.8942,
-      "winGroup": 0.3346
+      "winCup": 0.0118,
+      "reachFinal": 0.0355,
+      "reachR16": 0.506,
+      "qualify": 0.8952,
+      "winGroup": 0.33
     },
     {
       "teamId": "203",
@@ -1258,37 +1247,24 @@
       "group": "Group A",
       "elo": 1958.1,
       "form": 1.056,
-      "winCup": 0.0095,
-      "reachFinal": 0.0317,
-      "reachR16": 0.5492,
-      "qualify": 0.9895,
+      "winCup": 0.0091,
+      "reachFinal": 0.0323,
+      "reachR16": 0.5472,
+      "qualify": 0.9904,
       "winGroup": 0.5827
     },
     {
-      "teamId": "465",
-      "name": "Türkiye",
-      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/tur.png",
-      "group": "Group D",
-      "elo": 1957.3,
-      "form": 1.024,
-      "winCup": 0.0073,
-      "reachFinal": 0.022,
-      "reachR16": 0.4496,
-      "qualify": 0.8202,
-      "winGroup": 0.3793
-    },
-    {
-      "teamId": "464",
-      "name": "Norway",
-      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
-      "group": "Group I",
-      "elo": 1969.8,
-      "form": 0.96,
-      "winCup": 0.0064,
-      "reachFinal": 0.0216,
-      "reachR16": 0.3888,
-      "qualify": 0.8092,
-      "winGroup": 0.208
+      "teamId": "627",
+      "name": "Japan",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png",
+      "group": "Group F",
+      "elo": 1989.8,
+      "form": 0.955,
+      "winCup": 0.0091,
+      "reachFinal": 0.0335,
+      "reachR16": 0.4992,
+      "qualify": 0.9261,
+      "winGroup": 0.4214
     },
     {
       "teamId": "477",
@@ -1297,37 +1273,37 @@
       "group": "Group L",
       "elo": 1963.4,
       "form": 0.972,
-      "winCup": 0.0061,
-      "reachFinal": 0.0222,
-      "reachR16": 0.4268,
-      "qualify": 0.9053,
-      "winGroup": 0.2481
+      "winCup": 0.0068,
+      "reachFinal": 0.0228,
+      "reachR16": 0.4298,
+      "qualify": 0.909,
+      "winGroup": 0.248
     },
     {
-      "teamId": "459",
-      "name": "Belgium",
-      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
-      "group": "Group G",
-      "elo": 1925.7,
-      "form": 1.049,
-      "winCup": 0.0059,
-      "reachFinal": 0.0186,
-      "reachR16": 0.4966,
-      "qualify": 0.896,
-      "winGroup": 0.4658
+      "teamId": "465",
+      "name": "Türkiye",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/tur.png",
+      "group": "Group D",
+      "elo": 1957.3,
+      "form": 1.024,
+      "winCup": 0.0064,
+      "reachFinal": 0.022,
+      "reachR16": 0.447,
+      "qualify": 0.8189,
+      "winGroup": 0.3763
     },
     {
-      "teamId": "475",
-      "name": "Switzerland",
-      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
-      "group": "Group B",
-      "elo": 1937.1,
-      "form": 1.005,
-      "winCup": 0.0058,
-      "reachFinal": 0.0217,
-      "reachR16": 0.5326,
-      "qualify": 0.9683,
-      "winGroup": 0.5527
+      "teamId": "464",
+      "name": "Norway",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
+      "group": "Group I",
+      "elo": 1969.8,
+      "form": 0.96,
+      "winCup": 0.0057,
+      "reachFinal": 0.0205,
+      "reachR16": 0.3952,
+      "qualify": 0.8114,
+      "winGroup": 0.2083
     },
     {
       "teamId": "212",
@@ -1336,11 +1312,37 @@
       "group": "Group H",
       "elo": 1962.6,
       "form": 0.998,
+      "winCup": 0.0056,
+      "reachFinal": 0.0194,
+      "reachR16": 0.4289,
+      "qualify": 0.9249,
+      "winGroup": 0.1792
+    },
+    {
+      "teamId": "459",
+      "name": "Belgium",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
+      "group": "Group G",
+      "elo": 1925.7,
+      "form": 1.049,
       "winCup": 0.0053,
-      "reachFinal": 0.0186,
-      "reachR16": 0.4201,
-      "qualify": 0.926,
-      "winGroup": 0.1779
+      "reachFinal": 0.0184,
+      "reachR16": 0.497,
+      "qualify": 0.8951,
+      "winGroup": 0.4704
+    },
+    {
+      "teamId": "475",
+      "name": "Switzerland",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
+      "group": "Group B",
+      "elo": 1937.1,
+      "form": 1.005,
+      "winCup": 0.0046,
+      "reachFinal": 0.0206,
+      "reachR16": 0.5604,
+      "qualify": 0.9647,
+      "winGroup": 0.6276
     },
     {
       "teamId": "451",
@@ -1349,24 +1351,11 @@
       "group": "Group A",
       "elo": 1904.5,
       "form": 1.015,
-      "winCup": 0.0027,
-      "reachFinal": 0.0124,
-      "reachR16": 0.4804,
-      "qualify": 0.9789,
+      "winCup": 0.0029,
+      "reachFinal": 0.0131,
+      "reachR16": 0.4755,
+      "qualify": 0.9776,
       "winGroup": 0.391
-    },
-    {
-      "teamId": "206",
-      "name": "Canada",
-      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/can.png",
-      "group": "Group B",
-      "elo": 1889.2,
-      "form": 0.985,
-      "winCup": 0.0024,
-      "reachFinal": 0.0101,
-      "reachR16": 0.446,
-      "qualify": 0.9333,
-      "winGroup": 0.3892
     },
     {
       "teamId": "210",
@@ -1375,24 +1364,11 @@
       "group": "Group D",
       "elo": 1905.7,
       "form": 1.049,
-      "winCup": 0.0022,
-      "reachFinal": 0.0093,
-      "reachR16": 0.3465,
-      "qualify": 0.7319,
-      "winGroup": 0.2722
-    },
-    {
-      "teamId": "469",
-      "name": "Iran",
-      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/irn.png",
-      "group": "Group G",
-      "elo": 1892.4,
-      "form": 1.009,
-      "winCup": 0.0022,
-      "reachFinal": 0.0092,
-      "reachR16": 0.3901,
-      "qualify": 0.8394,
-      "winGroup": 0.3345
+      "winCup": 0.0026,
+      "reachFinal": 0.0099,
+      "reachR16": 0.3556,
+      "qualify": 0.7378,
+      "winGroup": 0.2747
     },
     {
       "teamId": "628",
@@ -1401,11 +1377,37 @@
       "group": "Group D",
       "elo": 1907.1,
       "form": 0.955,
+      "winCup": 0.0018,
+      "reachFinal": 0.0063,
+      "reachR16": 0.2947,
+      "qualify": 0.6811,
+      "winGroup": 0.2159
+    },
+    {
+      "teamId": "206",
+      "name": "Canada",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/can.png",
+      "group": "Group B",
+      "elo": 1889.2,
+      "form": 0.985,
       "winCup": 0.0016,
-      "reachFinal": 0.0067,
-      "reachR16": 0.2987,
-      "qualify": 0.6796,
-      "winGroup": 0.2127
+      "reachFinal": 0.0073,
+      "reachR16": 0.4025,
+      "qualify": 0.87,
+      "winGroup": 0.2889
+    },
+    {
+      "teamId": "469",
+      "name": "Iran",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/irn.png",
+      "group": "Group G",
+      "elo": 1892.4,
+      "form": 1.009,
+      "winCup": 0.0016,
+      "reachFinal": 0.0089,
+      "reachR16": 0.3937,
+      "qualify": 0.8346,
+      "winGroup": 0.3298
     },
     {
       "teamId": "654",
@@ -1414,11 +1416,11 @@
       "group": "Group I",
       "elo": 1901.0,
       "form": 0.969,
-      "winCup": 0.0016,
-      "reachFinal": 0.007,
-      "reachR16": 0.2725,
-      "qualify": 0.6724,
-      "winGroup": 0.1163
+      "winCup": 0.0008,
+      "reachFinal": 0.0056,
+      "reachR16": 0.2645,
+      "qualify": 0.6665,
+      "winGroup": 0.1101
     },
     {
       "teamId": "474",
@@ -1427,11 +1429,11 @@
       "group": "Group J",
       "elo": 1868.3,
       "form": 0.971,
-      "winCup": 0.0006,
-      "reachFinal": 0.0036,
-      "reachR16": 0.2344,
-      "qualify": 0.6212,
-      "winGroup": 0.0675
+      "winCup": 0.0008,
+      "reachFinal": 0.0041,
+      "reachR16": 0.2346,
+      "qualify": 0.6218,
+      "winGroup": 0.0656
     },
     {
       "teamId": "580",
@@ -1440,11 +1442,11 @@
       "group": "Group C",
       "elo": 1851.6,
       "form": 1.079,
-      "winCup": 0.0005,
-      "reachFinal": 0.0045,
-      "reachR16": 0.2596,
-      "qualify": 0.6923,
-      "winGroup": 0.1255
+      "winCup": 0.0006,
+      "reachFinal": 0.0037,
+      "reachR16": 0.259,
+      "qualify": 0.6919,
+      "winGroup": 0.1283
     },
     {
       "teamId": "624",
@@ -1453,11 +1455,11 @@
       "group": "Group J",
       "elo": 1870.4,
       "form": 0.98,
-      "winCup": 0.0004,
-      "reachFinal": 0.0036,
-      "reachR16": 0.2424,
-      "qualify": 0.6388,
-      "winGroup": 0.0713
+      "winCup": 0.0006,
+      "reachFinal": 0.0034,
+      "reachR16": 0.2403,
+      "qualify": 0.6277,
+      "winGroup": 0.069
     },
     {
       "teamId": "2659",
@@ -1467,10 +1469,23 @@
       "elo": 1835.3,
       "form": 0.995,
       "winCup": 0.0003,
-      "reachFinal": 0.0014,
-      "reachR16": 0.2094,
-      "qualify": 0.6866,
-      "winGroup": 0.0829
+      "reachFinal": 0.0028,
+      "reachR16": 0.2065,
+      "qualify": 0.6882,
+      "winGroup": 0.0799
+    },
+    {
+      "teamId": "450",
+      "name": "Czechia",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cze.png",
+      "group": "Group A",
+      "elo": 1769.2,
+      "form": 0.982,
+      "winCup": 0.0001,
+      "reachFinal": 0.0001,
+      "reachR16": 0.0747,
+      "qualify": 0.5187,
+      "winGroup": 0.0225
     },
     {
       "teamId": "660",
@@ -1479,37 +1494,24 @@
       "group": "Group D",
       "elo": 1844.4,
       "form": 0.993,
-      "winCup": 0.0002,
-      "reachFinal": 0.0015,
-      "reachR16": 0.1895,
-      "qualify": 0.5359,
-      "winGroup": 0.1358
+      "winCup": 0.0001,
+      "reachFinal": 0.002,
+      "reachR16": 0.1874,
+      "qualify": 0.5299,
+      "winGroup": 0.1331
     },
     {
-      "teamId": "4789",
-      "name": "Ivory Coast",
-      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png",
-      "group": "Group E",
-      "elo": 1795.6,
-      "form": 1.0,
+      "teamId": "2917",
+      "name": "Jordan",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/jor.png",
+      "group": "Group J",
+      "elo": 1785.7,
+      "form": 0.927,
       "winCup": 0.0001,
-      "reachFinal": 0.0006,
-      "reachR16": 0.1411,
-      "qualify": 0.6303,
-      "winGroup": 0.0732
-    },
-    {
-      "teamId": "466",
-      "name": "Sweden",
-      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png",
-      "group": "Group F",
-      "elo": 1759.4,
-      "form": 0.964,
-      "winCup": 0.0001,
-      "reachFinal": 0.0001,
-      "reachR16": 0.0799,
-      "qualify": 0.4801,
-      "winGroup": 0.0569
+      "reachFinal": 0.0003,
+      "reachR16": 0.0749,
+      "qualify": 0.353,
+      "winGroup": 0.0227
     },
     {
       "teamId": "2570",
@@ -1520,35 +1522,9 @@
       "form": 0.954,
       "winCup": 0.0001,
       "reachFinal": 0.0011,
-      "reachR16": 0.1354,
-      "qualify": 0.5013,
-      "winGroup": 0.0638
-    },
-    {
-      "teamId": "2850",
-      "name": "Congo DR",
-      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rdc.png",
-      "group": "Group K",
-      "elo": 1756.6,
-      "form": 0.984,
-      "winCup": 0.0001,
-      "reachFinal": 0.0001,
-      "reachR16": 0.0488,
-      "qualify": 0.3054,
-      "winGroup": 0.0279
-    },
-    {
-      "teamId": "450",
-      "name": "Czechia",
-      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/cze.png",
-      "group": "Group A",
-      "elo": 1769.2,
-      "form": 0.982,
-      "winCup": 0.0,
-      "reachFinal": 0.0003,
-      "reachR16": 0.0755,
-      "qualify": 0.5245,
-      "winGroup": 0.0225
+      "reachR16": 0.1419,
+      "qualify": 0.4969,
+      "winGroup": 0.064
     },
     {
       "teamId": "467",
@@ -1559,8 +1535,8 @@
       "form": 0.941,
       "winCup": 0.0,
       "reachFinal": 0.0,
-      "reachR16": 0.0087,
-      "qualify": 0.1905,
+      "reachR16": 0.0076,
+      "qualify": 0.1909,
       "winGroup": 0.0039
     },
     {
@@ -1572,9 +1548,9 @@
       "form": 1.014,
       "winCup": 0.0,
       "reachFinal": 0.0,
-      "reachR16": 0.0272,
-      "qualify": 0.4511,
-      "winGroup": 0.0398
+      "reachR16": 0.0381,
+      "qualify": 0.5537,
+      "winGroup": 0.0575
     },
     {
       "teamId": "4398",
@@ -1585,9 +1561,9 @@
       "form": 0.994,
       "winCup": 0.0,
       "reachFinal": 0.0,
-      "reachR16": 0.0109,
-      "qualify": 0.2783,
-      "winGroup": 0.0181
+      "reachR16": 0.012,
+      "qualify": 0.2803,
+      "winGroup": 0.0261
     },
     {
       "teamId": "2654",
@@ -1598,9 +1574,22 @@
       "form": 0.947,
       "winCup": 0.0,
       "reachFinal": 0.0,
-      "reachR16": 0.0143,
-      "qualify": 0.1817,
-      "winGroup": 0.013
+      "reachR16": 0.0152,
+      "qualify": 0.1841,
+      "winGroup": 0.0138
+    },
+    {
+      "teamId": "4789",
+      "name": "Ivory Coast",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png",
+      "group": "Group E",
+      "elo": 1795.6,
+      "form": 1.0,
+      "winCup": 0.0,
+      "reachFinal": 0.0007,
+      "reachR16": 0.1383,
+      "qualify": 0.6293,
+      "winGroup": 0.0722
     },
     {
       "teamId": "11678",
@@ -1611,9 +1600,22 @@
       "form": 0.974,
       "winCup": 0.0,
       "reachFinal": 0.0,
-      "reachR16": 0.004,
-      "qualify": 0.1256,
-      "winGroup": 0.005
+      "reachR16": 0.005,
+      "qualify": 0.1216,
+      "winGroup": 0.0046
+    },
+    {
+      "teamId": "466",
+      "name": "Sweden",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png",
+      "group": "Group F",
+      "elo": 1759.4,
+      "form": 0.964,
+      "winCup": 0.0,
+      "reachFinal": 0.0002,
+      "reachR16": 0.0774,
+      "qualify": 0.4729,
+      "winGroup": 0.0546
     },
     {
       "teamId": "659",
@@ -1624,9 +1626,9 @@
       "form": 0.88,
       "winCup": 0.0,
       "reachFinal": 0.0,
-      "reachR16": 0.0308,
-      "qualify": 0.3189,
-      "winGroup": 0.0301
+      "reachR16": 0.0315,
+      "qualify": 0.3168,
+      "winGroup": 0.0304
     },
     {
       "teamId": "2620",
@@ -1637,9 +1639,9 @@
       "form": 0.988,
       "winCup": 0.0,
       "reachFinal": 0.0008,
-      "reachR16": 0.1663,
-      "qualify": 0.622,
-      "winGroup": 0.1447
+      "reachR16": 0.1708,
+      "qualify": 0.6294,
+      "winGroup": 0.1419
     },
     {
       "teamId": "2666",
@@ -1650,9 +1652,9 @@
       "form": 0.88,
       "winCup": 0.0,
       "reachFinal": 0.0001,
-      "reachR16": 0.0496,
-      "qualify": 0.372,
-      "winGroup": 0.0551
+      "reachR16": 0.0483,
+      "qualify": 0.3714,
+      "winGroup": 0.0578
     },
     {
       "teamId": "655",
@@ -1662,10 +1664,10 @@
       "elo": 1707.8,
       "form": 1.006,
       "winCup": 0.0,
-      "reachFinal": 0.0,
-      "reachR16": 0.0321,
-      "qualify": 0.38,
-      "winGroup": 0.0092
+      "reachFinal": 0.0001,
+      "reachR16": 0.0347,
+      "qualify": 0.3731,
+      "winGroup": 0.0088
     },
     {
       "teamId": "2597",
@@ -1676,9 +1678,9 @@
       "form": 0.995,
       "winCup": 0.0,
       "reachFinal": 0.0,
-      "reachR16": 0.0086,
-      "qualify": 0.1938,
-      "winGroup": 0.0037
+      "reachR16": 0.0088,
+      "qualify": 0.1973,
+      "winGroup": 0.0035
     },
     {
       "teamId": "4375",
@@ -1688,23 +1690,23 @@
       "elo": 1742.3,
       "form": 0.983,
       "winCup": 0.0,
-      "reachFinal": 0.0,
-      "reachR16": 0.0334,
-      "qualify": 0.2296,
-      "winGroup": 0.0167
+      "reachFinal": 0.0001,
+      "reachR16": 0.0312,
+      "qualify": 0.2293,
+      "winGroup": 0.0192
     },
     {
-      "teamId": "2917",
-      "name": "Jordan",
-      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/jor.png",
-      "group": "Group J",
-      "elo": 1785.7,
-      "form": 0.927,
+      "teamId": "2850",
+      "name": "Congo DR",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rdc.png",
+      "group": "Group K",
+      "elo": 1756.6,
+      "form": 0.984,
       "winCup": 0.0,
       "reachFinal": 0.0001,
-      "reachR16": 0.0722,
-      "qualify": 0.3546,
-      "winGroup": 0.0211
+      "reachR16": 0.0479,
+      "qualify": 0.3025,
+      "winGroup": 0.0279
     },
     {
       "teamId": "4469",
@@ -1715,16 +1717,16 @@
       "form": 0.948,
       "winCup": 0.0,
       "reachFinal": 0.0,
-      "reachR16": 0.0037,
-      "qualify": 0.0954,
-      "winGroup": 0.0027
+      "reachR16": 0.004,
+      "qualify": 0.096,
+      "winGroup": 0.0028
     }
   ],
   "accuracy": {
-    "n": 2,
-    "hitRate": 1.0,
-    "rps": 0.08084999999999999,
-    "brier": 0.20085,
+    "n": 3,
+    "hitRate": 0.6666666666666666,
+    "rps": 0.13446666666666665,
+    "brier": 0.5183333333333333,
     "history": [
       {
         "date": "2026-06-11T19:00Z",
@@ -1747,6 +1749,17 @@
         "correct": true,
         "rps": 0.1266,
         "brier": 0.3044
+      },
+      {
+        "date": "2026-06-12T19:00Z",
+        "matchId": "760416",
+        "home": "Canada",
+        "away": "Bosnia-Herzegovina",
+        "predicted": "home",
+        "actual": "draw",
+        "correct": false,
+        "rps": 0.2417,
+        "brier": 1.1533
       }
     ]
   }
