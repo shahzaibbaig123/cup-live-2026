@@ -13,7 +13,7 @@ from dataclasses import dataclass
 
 import numpy as np
 
-from .ratings import Calibration, HOME_ADV
+from .ratings import Calibration
 
 MAX_GOALS = 10
 MIN_LAMBDA = 0.15
@@ -40,7 +40,10 @@ def calibrate(calib: Calibration) -> ModelParams:
     target_draw = float((gd == 0).mean())
     base = total_goals / 2.0
     best_rho, best_err = 0.0, 1e9
-    for rho in np.linspace(-0.2, 0.05, 26):
+    # Range spans both signs: classic Dixon-Coles uses rho<0 to lift low-score
+    # draws, but international scoring needs rho>0 to trim them. Keep the optimum
+    # comfortably inside the grid so calibration never pins to a boundary.
+    for rho in np.linspace(-0.25, 0.25, 51):
         p = score_matrix(base, base, rho)
         draw = float(np.trace(p))
         err = abs(draw - target_draw)

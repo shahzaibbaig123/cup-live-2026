@@ -138,6 +138,13 @@ def build() -> dict:
         "accuracy": acc,
     }
 
+    # Avoid churn: if nothing but the timestamp would change, keep the old
+    # timestamp so the file stays byte-identical and the cron skips the commit.
+    if prev:
+        without_ts = lambda d: {k: v for k, v in d.items() if k != "generatedAt"}
+        if without_ts(out) == without_ts(prev):
+            out["generatedAt"] = prev["generatedAt"]
+
     os.makedirs(os.path.dirname(OUT_PATH), exist_ok=True)
     with open(OUT_PATH, "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=2)
