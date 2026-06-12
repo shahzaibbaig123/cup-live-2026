@@ -49,3 +49,8 @@ expo-qr.png
 CLAUDE.md
 AGENTS.md
 .claude/
+.venv/
+__pycache__/
+*.pyc
+predictor/.cache/
+predictor/.history.csv

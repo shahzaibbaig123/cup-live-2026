@@ -1,0 +1,53 @@
+name: Update AI predictions
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Every 6 hours during the tournament window (UTC). Adjust/remove post-tournament.
+    - cron: "0 2,8,14,20 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: predict
+  cancel-in-progress: false
+
+jobs:
+  predict:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: predictor/requirements.txt
+
+      # Cache the TimesFM checkpoint so reruns don't re-download it.
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: timesfm-2p5-200m
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r predictor/requirements.txt
+          pip install "timesfm[torch]==2.0.0"
+
+      - name: Build predictions
+        run: python -m predictor.build
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet -- public/predictions.json; then
+            git add public/predictions.json
+            git commit -m "Update predictions ($(date -u +%Y-%m-%dT%H:%MZ))"
+            git push
+          else
+            echo "No prediction changes."
+          fi

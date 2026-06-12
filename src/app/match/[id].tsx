@@ -3,12 +3,13 @@ import { RefreshControl, ScrollView, StyleSheet, View } from 'react-native';
 
 import type { Match, MatchEvent, MatchTeam } from '@/api/types';
 import { EventRow, isPeriodMarker } from '@/components/event-row';
+import { ForecastBar } from '@/components/forecast-bar';
 import { LiveBadge } from '@/components/live-badge';
 import { TeamLogo } from '@/components/team-logo';
 import { ThemedText } from '@/components/themed-text';
 import { ErrorView, LoadingView } from '@/components/status-views';
 import { Palette, Radius, Spacing } from '@/constants/theme';
-import { useMatchDetail } from '@/hooks/use-football';
+import { useMatchDetail, usePredictions } from '@/hooks/use-football';
 import { formatKickoffDateTime } from '@/lib/dates';
 
 const SHOWN_EVENT_TYPES = new Set<MatchEvent['type']>([
@@ -84,6 +85,8 @@ function InfoRow({ label, value }: { label: string; value?: string }) {
 export default function MatchScreen() {
   const { id } = useLocalSearchParams<{ id: string }>();
   const { data, isLoading, isError, refetch, isRefetching } = useMatchDetail(id ?? '');
+  const { data: predictions } = usePredictions();
+  const forecast = id ? predictions?.matches[id] : undefined;
 
   const match = data?.match;
   const events = (data?.events ?? []).filter((e) => SHOWN_EVENT_TYPES.has(e.type));
@@ -113,6 +116,31 @@ export default function MatchScreen() {
             />
           }>
           <ScoreHeader match={match} />
+
+          {forecast && (
+            <View style={styles.card}>
+              <View style={styles.forecastTitleRow}>
+                <ThemedText type="subtitle">Forecast</ThemedText>
+                <ThemedText type="caption" secondary>
+                  AI model
+                </ThemedText>
+              </View>
+              <ForecastBar
+                forecast={forecast}
+                homeLabel={match.home.abbreviation || match.home.shortName}
+                awayLabel={match.away.abbreviation || match.away.shortName}
+              />
+              {match.status === 'post' && forecast.result ? (
+                <ThemedText type="caption" secondary style={styles.forecastResult}>
+                  {forecast.predicted === forecast.result ? '✓ Predicted correctly' : '✗ Prediction missed'}
+                </ThemedText>
+              ) : (
+                <ThemedText type="caption" secondary style={styles.forecastResult}>
+                  Most likely score {forecast.xHome}–{forecast.xAway}
+                </ThemedText>
+              )}
+            </View>
+          )}
 
           {events.length > 0 && (
             <View style={styles.card}>
@@ -208,6 +236,15 @@ const styles = StyleSheet.create({
   },
   cardTitle: {
     marginBottom: Spacing.two,
+  },
+  forecastTitleRow: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginBottom: Spacing.three,
+  },
+  forecastResult: {
+    marginTop: Spacing.two,
   },
   infoRow: {
     flexDirection: 'row',

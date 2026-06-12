@@ -1,6 +1,7 @@
 import { useQuery } from '@tanstack/react-query';
 
 import { getMatchDetail, getSchedule, getStandings } from '@/api/espn';
+import { getPredictions } from '@/api/predictions';
 import type { Match } from '@/api/types';
 
 const LIVE_POLL_MS = 30_000;
@@ -31,6 +32,16 @@ export function useStandings() {
     queryFn: getStandings,
     staleTime: 60_000,
     refetchInterval: IDLE_POLL_MS,
+  });
+}
+
+/** AI predictions artifact, refreshed by the offline pipeline a few times a day. */
+export function usePredictions() {
+  return useQuery({
+    queryKey: ['predictions'],
+    queryFn: getPredictions,
+    staleTime: 30 * 60_000,
+    refetchInterval: 30 * 60_000,
   });
 }
 

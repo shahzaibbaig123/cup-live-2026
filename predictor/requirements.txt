@@ -1,0 +1,8 @@
+# Core engine — installs on any modern Python, used locally and in CI.
+numpy>=1.26
+requests>=2.31
+
+# TimesFM form feature — optional. Heavy (PyTorch); only used in CI on Python 3.11
+# where wheels exist. forecast.py degrades gracefully if these are absent.
+# Uncomment / installed via the predict.yml workflow:
+# timesfm[torch]==2.0.0

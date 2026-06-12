@@ -1,3 +1,4 @@
+import Ionicons from '@expo/vector-icons/Ionicons';
 import { useRouter } from 'expo-router';
 import { Pressable, StyleSheet, View } from 'react-native';
 
@@ -7,6 +8,7 @@ import { TeamLogo } from '@/components/team-logo';
 import { ThemedText } from '@/components/themed-text';
 import { Palette, Radius, Spacing } from '@/constants/theme';
 import { formatKickoffTime } from '@/lib/dates';
+import { usePredictions } from '@/hooks/use-football';
 
 function TeamLine({ team, match }: { team: MatchTeam; match: Match }) {
   const finishedLoser = match.status === 'post' && !team.winner && team.score !== undefined;
@@ -41,6 +43,28 @@ function MatchStatusLabel({ match }: { match: Match }) {
   return <ThemedText type="smallBold">{formatKickoffTime(match.date)}</ThemedText>;
 }
 
+function PredictionHint({ match }: { match: Match }) {
+  const { data } = usePredictions();
+  const forecast = data?.matches[match.id];
+  if (!forecast || match.status !== 'pre') return null;
+  const { predicted, pHome, pDraw, pAway } = forecast;
+  const label =
+    predicted === 'home'
+      ? match.home.abbreviation || match.home.shortName
+      : predicted === 'away'
+        ? match.away.abbreviation || match.away.shortName
+        : 'Draw';
+  const prob = predicted === 'home' ? pHome : predicted === 'away' ? pAway : pDraw;
+  return (
+    <View style={styles.hintRow}>
+      <Ionicons name="sparkles" size={11} color={Palette.accent} />
+      <ThemedText type="caption" secondary>
+        {predicted === 'draw' ? 'Draw' : `${label} to win`} · {Math.round(prob * 100)}%
+      </ThemedText>
+    </View>
+  );
+}
+
 export function MatchCard({ match }: { match: Match }) {
   const router = useRouter();
   const context = [match.stage, match.city].filter(Boolean).join(' · ');
@@ -56,6 +80,7 @@ export function MatchCard({ match }: { match: Match }) {
       </View>
       <TeamLine team={match.home} match={match} />
       <TeamLine team={match.away} match={match} />
+      <PredictionHint match={match} />
     </Pressable>
   );
 }
@@ -93,5 +118,11 @@ const styles = StyleSheet.create({
   },
   dimmed: {
     color: Palette.textSecondary,
+  },
+  hintRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: Spacing.one,
+    marginTop: Spacing.half,
   },
 });
