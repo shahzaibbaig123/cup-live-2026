@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-06-12T13:52:56+00:00",
+  "generatedAt": "2026-06-12T14:05:15+00:00",
   "meta": {
     "model": "Elo + Dixon-Coles Poisson + TimesFM form (hybrid)",
     "timesfmUsed": true,
     "nSims": 20000,
     "betaPerElo": 0.00536,
     "totalGoals": 2.728,
-    "rho": 0.05
+    "rho": 0.11
   },
   "matches": {
     "760415": {
@@ -51,9 +51,9 @@
       "stage": "group-stage",
       "date": "2026-06-12T19:00Z",
       "status": "pre",
-      "pHome": 0.6758,
-      "pDraw": 0.193,
-      "pAway": 0.1312,
+      "pHome": 0.6816,
+      "pDraw": 0.1815,
+      "pAway": 0.1369,
       "predicted": "home",
       "xHome": 1,
       "xAway": 0
@@ -66,11 +66,11 @@
       "stage": "group-stage",
       "date": "2026-06-13T01:00Z",
       "status": "pre",
-      "pHome": 0.2896,
-      "pDraw": 0.2354,
-      "pAway": 0.475,
+      "pHome": 0.2966,
+      "pDraw": 0.2214,
+      "pAway": 0.482,
       "predicted": "away",
-      "xHome": 1,
+      "xHome": 0,
       "xAway": 1
     },
     "760420": {
@@ -81,9 +81,9 @@
       "stage": "group-stage",
       "date": "2026-06-13T19:00Z",
       "status": "pre",
-      "pHome": 0.0587,
-      "pDraw": 0.1421,
-      "pAway": 0.7992,
+      "pHome": 0.0626,
+      "pDraw": 0.1343,
+      "pAway": 0.8031,
       "predicted": "away",
       "xHome": 0,
       "xAway": 2
@@ -96,12 +96,12 @@
       "stage": "group-stage",
       "date": "2026-06-13T22:00Z",
       "status": "pre",
-      "pHome": 0.4532,
-      "pDraw": 0.2412,
-      "pAway": 0.3056,
+      "pHome": 0.4604,
+      "pDraw": 0.2268,
+      "pAway": 0.3128,
       "predicted": "home",
       "xHome": 1,
-      "xAway": 1
+      "xAway": 0
     },
     "760418": {
       "home": "Haiti",
@@ -111,9 +111,9 @@
       "stage": "group-stage",
       "date": "2026-06-14T01:00Z",
       "status": "pre",
-      "pHome": 0.1763,
-      "pDraw": 0.2067,
-      "pAway": 0.617,
+      "pHome": 0.1825,
+      "pDraw": 0.1943,
+      "pAway": 0.6232,
       "predicted": "away",
       "xHome": 0,
       "xAway": 1
@@ -126,11 +126,11 @@
       "stage": "group-stage",
       "date": "2026-06-14T04:00Z",
       "status": "pre",
-      "pHome": 0.2973,
-      "pDraw": 0.2409,
-      "pAway": 0.4618,
+      "pHome": 0.3045,
+      "pDraw": 0.2265,
+      "pAway": 0.469,
       "predicted": "away",
-      "xHome": 1,
+      "xHome": 0,
       "xAway": 1
     },
     "760422": {
@@ -141,9 +141,9 @@
       "stage": "group-stage",
       "date": "2026-06-14T17:00Z",
       "status": "pre",
-      "pHome": 0.8397,
-      "pDraw": 0.1226,
-      "pAway": 0.0377,
+      "pHome": 0.8427,
+      "pDraw": 0.1165,
+      "pAway": 0.0408,
       "predicted": "home",
       "xHome": 2,
       "xAway": 0
@@ -156,12 +156,12 @@
       "stage": "group-stage",
       "date": "2026-06-14T20:00Z",
       "status": "pre",
-      "pHome": 0.3966,
-      "pDraw": 0.2501,
-      "pAway": 0.3533,
+      "pHome": 0.4041,
+      "pDraw": 0.2351,
+      "pAway": 0.3608,
       "predicted": "home",
       "xHome": 1,
-      "xAway": 1
+      "xAway": 0
     },
     "760423": {
       "home": "Ivory Coast",
@@ -171,9 +171,9 @@
       "stage": "group-stage",
       "date": "2026-06-14T23:00Z",
       "status": "pre",
-      "pHome": 0.148,
-      "pDraw": 0.1981,
-      "pAway": 0.6539,
+      "pHome": 0.1539,
+      "pDraw": 0.1862,
+      "pAway": 0.6598,
       "predicted": "away",
       "xHome": 0,
       "xAway": 1
@@ -186,12 +186,12 @@
       "stage": "group-stage",
       "date": "2026-06-15T02:00Z",
       "status": "pre",
-      "pHome": 0.4434,
-      "pDraw": 0.2524,
-      "pAway": 0.3041,
+      "pHome": 0.451,
+      "pDraw": 0.2373,
+      "pAway": 0.3117,
       "predicted": "home",
       "xHome": 1,
-      "xAway": 1
+      "xAway": 0
     },
     "760428": {
       "home": "Spain",
@@ -201,9 +201,9 @@
       "stage": "group-stage",
       "date": "2026-06-15T16:00Z",
       "status": "pre",
-      "pHome": 0.9092,
-      "pDraw": 0.0788,
-      "pAway": 0.012,
+      "pHome": 0.9105,
+      "pDraw": 0.0761,
+      "pAway": 0.0134,
       "predicted": "home",
       "xHome": 2,
       "xAway": 0
@@ -216,9 +216,9 @@
       "stage": "group-stage",
       "date": "2026-06-15T19:00Z",
       "status": "pre",
-      "pHome": 0.5602,
-      "pDraw": 0.2211,
-      "pAway": 0.2187,
+      "pHome": 0.5668,
+      "pDraw": 0.2079,
+      "pAway": 0.2253,
       "predicted": "home",
       "xHome": 1,
       "xAway": 0
@@ -231,9 +231,9 @@
       "stage": "group-stage",
       "date": "2026-06-15T22:00Z",
       "status": "pre",
-      "pHome": 0.1186,
-      "pDraw": 0.1852,
-      "pAway": 0.6962,
+      "pHome": 0.1241,
+      "pDraw": 0.1742,
+      "pAway": 0.7017,
       "predicted": "away",
       "xHome": 0,
       "xAway": 1
@@ -246,9 +246,9 @@
       "stage": "group-stage",
       "date": "2026-06-16T01:00Z",
       "status": "pre",
-      "pHome": 0.6071,
-      "pDraw": 0.2171,
-      "pAway": 0.1758,
+      "pHome": 0.6135,
+      "pDraw": 0.2042,
+      "pAway": 0.1823,
       "predicted": "home",
       "xHome": 1,
       "xAway": 0
@@ -261,9 +261,9 @@
       "stage": "group-stage",
       "date": "2026-06-16T19:00Z",
       "status": "pre",
-      "pHome": 0.657,
-      "pDraw": 0.1988,
-      "pAway": 0.1443,
+      "pHome": 0.6629,
+      "pDraw": 0.1869,
+      "pAway": 0.1502,
       "predicted": "home",
       "xHome": 1,
       "xAway": 0
@@ -276,9 +276,9 @@
       "stage": "group-stage",
       "date": "2026-06-16T22:00Z",
       "status": "pre",
-      "pHome": 0.1445,
-      "pDraw": 0.2038,
-      "pAway": 0.6518,
+      "pHome": 0.1505,
+      "pDraw": 0.1917,
+      "pAway": 0.6578,
       "predicted": "away",
       "xHome": 0,
       "xAway": 1
@@ -291,9 +291,9 @@
       "stage": "group-stage",
       "date": "2026-06-17T01:00Z",
       "status": "pre",
-      "pHome": 0.7592,
-      "pDraw": 0.1593,
-      "pAway": 0.0815,
+      "pHome": 0.7638,
+      "pDraw": 0.15,
+      "pAway": 0.0861,
       "predicted": "home",
       "xHome": 2,
       "xAway": 0
@@ -306,9 +306,9 @@
       "stage": "group-stage",
       "date": "2026-06-17T04:00Z",
       "status": "pre",
-      "pHome": 0.49,
-      "pDraw": 0.243,
-      "pAway": 0.2671,
+      "pHome": 0.4973,
+      "pDraw": 0.2284,
+      "pAway": 0.2744,
       "predicted": "home",
       "xHome": 1,
       "xAway": 0
@@ -321,11 +321,11 @@
       "stage": "group-stage",
       "date": "2026-06-17T17:00Z",
       "status": "pre",
-      "pHome": 0.728,
-      "pDraw": 0.1738,
-      "pAway": 0.0982,
+      "pHome": 0.7331,
+      "pDraw": 0.1636,
+      "pAway": 0.1032,
       "predicted": "home",
-      "xHome": 2,
+      "xHome": 1,
       "xAway": 0
     },
     "760437": {
@@ -336,9 +336,9 @@
       "stage": "group-stage",
       "date": "2026-06-17T20:00Z",
       "status": "pre",
-      "pHome": 0.5504,
-      "pDraw": 0.2264,
-      "pAway": 0.2232,
+      "pHome": 0.5572,
+      "pDraw": 0.2128,
+      "pAway": 0.23,
       "predicted": "home",
       "xHome": 1,
       "xAway": 0
@@ -351,9 +351,9 @@
       "stage": "group-stage",
       "date": "2026-06-17T23:00Z",
       "status": "pre",
-      "pHome": 0.1329,
-      "pDraw": 0.1956,
-      "pAway": 0.6714,
+      "pHome": 0.1387,
+      "pDraw": 0.184,
+      "pAway": 0.6772,
       "predicted": "away",
       "xHome": 0,
       "xAway": 1
@@ -366,9 +366,9 @@
       "stage": "group-stage",
       "date": "2026-06-18T02:00Z",
       "status": "pre",
-      "pHome": 0.1447,
-      "pDraw": 0.2007,
-      "pAway": 0.6546,
+      "pHome": 0.1507,
+      "pDraw": 0.1887,
+      "pAway": 0.6606,
       "predicted": "away",
       "xHome": 0,
       "xAway": 1
@@ -381,9 +381,9 @@
       "stage": "group-stage",
       "date": "2026-06-18T16:00Z",
       "status": "pre",
-      "pHome": 0.5257,
-      "pDraw": 0.2353,
-      "pAway": 0.2391,
+      "pHome": 0.5327,
+      "pDraw": 0.2212,
+      "pAway": 0.2461,
       "predicted": "home",
       "xHome": 1,
       "xAway": 0
@@ -396,9 +396,9 @@
       "stage": "group-stage",
       "date": "2026-06-18T19:00Z",
       "status": "pre",
-      "pHome": 0.7397,
-      "pDraw": 0.1679,
-      "pAway": 0.0924,
+      "pHome": 0.7446,
+      "pDraw": 0.1581,
+      "pAway": 0.0973,
       "predicted": "home",
       "xHome": 2,
       "xAway": 0
@@ -411,9 +411,9 @@
       "stage": "group-stage",
       "date": "2026-06-18T22:00Z",
       "status": "pre",
-      "pHome": 0.7408,
-      "pDraw": 0.1693,
-      "pAway": 0.0899,
+      "pHome": 0.7457,
+      "pDraw": 0.1595,
+      "pAway": 0.0948,
       "predicted": "home",
       "xHome": 2,
       "xAway": 0
@@ -426,12 +426,12 @@
       "stage": "group-stage",
       "date": "2026-06-19T01:00Z",
       "status": "pre",
-      "pHome": 0.4619,
-      "pDraw": 0.2352,
-      "pAway": 0.3029,
+      "pHome": 0.4689,
+      "pDraw": 0.2212,
+      "pAway": 0.3098,
       "predicted": "home",
       "xHome": 1,
-      "xAway": 1
+      "xAway": 0
     },
     "760442": {
       "home": "United States",
@@ -441,11 +441,11 @@
       "stage": "group-stage",
       "date": "2026-06-19T19:00Z",
       "status": "pre",
-      "pHome": 0.3133,
-      "pDraw": 0.2458,
-      "pAway": 0.441,
+      "pHome": 0.3206,
+      "pDraw": 0.231,
+      "pAway": 0.4483,
       "predicted": "away",
-      "xHome": 1,
+      "xHome": 0,
       "xAway": 1
     },
     "760445": {
@@ -456,9 +456,9 @@
       "stage": "group-stage",
       "date": "2026-06-19T22:00Z",
       "status": "pre",
-      "pHome": 0.2437,
-      "pDraw": 0.2287,
-      "pAway": 0.5276,
+      "pHome": 0.2505,
+      "pDraw": 0.215,
+      "pAway": 0.5345,
       "predicted": "away",
       "xHome": 0,
       "xAway": 1
@@ -471,9 +471,9 @@
       "stage": "group-stage",
       "date": "2026-06-20T00:30Z",
       "status": "pre",
-      "pHome": 0.8078,
-      "pDraw": 0.1382,
-      "pAway": 0.054,
+      "pHome": 0.8115,
+      "pDraw": 0.1307,
+      "pAway": 0.0578,
       "predicted": "home",
       "xHome": 2,
       "xAway": 0
@@ -486,9 +486,9 @@
       "stage": "group-stage",
       "date": "2026-06-20T03:00Z",
       "status": "pre",
-      "pHome": 0.4381,
-      "pDraw": 0.2376,
-      "pAway": 0.3243,
+      "pHome": 0.4451,
+      "pDraw": 0.2235,
+      "pAway": 0.3314,
       "predicted": "home",
       "xHome": 1,
       "xAway": 1
@@ -501,9 +501,9 @@
       "stage": "group-stage",
       "date": "2026-06-20T17:00Z",
       "status": "pre",
-      "pHome": 0.6794,
-      "pDraw": 0.1948,
-      "pAway": 0.1258,
+      "pHome": 0.6851,
+      "pDraw": 0.1834,
+      "pAway": 0.1315,
       "predicted": "home",
       "xHome": 1,
       "xAway": 0
@@ -516,9 +516,9 @@
       "stage": "group-stage",
       "date": "2026-06-20T20:00Z",
       "status": "pre",
-      "pHome": 0.6331,
-      "pDraw": 0.2059,
-      "pAway": 0.1611,
+      "pHome": 0.6392,
+      "pDraw": 0.1936,
+      "pAway": 0.1672,
       "predicted": "home",
       "xHome": 1,
       "xAway": 0
@@ -531,9 +531,9 @@
       "stage": "group-stage",
       "date": "2026-06-21T00:00Z",
       "status": "pre",
-      "pHome": 0.8548,
-      "pDraw": 0.1132,
-      "pAway": 0.032,
+      "pHome": 0.8575,
+      "pDraw": 0.1077,
+      "pAway": 0.0348,
       "predicted": "home",
       "xHome": 2,
       "xAway": 0
@@ -546,9 +546,9 @@
       "stage": "group-stage",
       "date": "2026-06-21T04:00Z",
       "status": "pre",
-      "pHome": 0.101,
-      "pDraw": 0.1852,
-      "pAway": 0.7138,
+      "pHome": 0.1063,
+      "pDraw": 0.1747,
+      "pAway": 0.719,
       "predicted": "away",
       "xHome": 0,
       "xAway": 1
@@ -561,9 +561,9 @@
       "stage": "group-stage",
       "date": "2026-06-21T16:00Z",
       "status": "pre",
-      "pHome": 0.8922,
-      "pDraw": 0.0933,
-      "pAway": 0.0145,
+      "pHome": 0.8938,
+      "pDraw": 0.0902,
+      "pAway": 0.016,
       "predicted": "home",
       "xHome": 2,
       "xAway": 0
@@ -576,9 +576,9 @@
       "stage": "group-stage",
       "date": "2026-06-21T19:00Z",
       "status": "pre",
-      "pHome": 0.4345,
-      "pDraw": 0.2385,
-      "pAway": 0.327,
+      "pHome": 0.4416,
+      "pDraw": 0.2243,
+      "pAway": 0.3341,
       "predicted": "home",
       "xHome": 1,
       "xAway": 1
@@ -591,9 +591,9 @@
       "stage": "group-stage",
       "date": "2026-06-21T22:00Z",
       "status": "pre",
-      "pHome": 0.7826,
-      "pDraw": 0.1503,
-      "pAway": 0.0671,
+      "pHome": 0.7868,
+      "pDraw": 0.1419,
+      "pAway": 0.0713,
       "predicted": "home",
       "xHome": 2,
       "xAway": 0
@@ -606,9 +606,9 @@
       "stage": "group-stage",
       "date": "2026-06-22T01:00Z",
       "status": "pre",
-      "pHome": 0.2699,
-      "pDraw": 0.2453,
-      "pAway": 0.4847,
+      "pHome": 0.2773,
+      "pDraw": 0.2306,
+      "pAway": 0.4921,
       "predicted": "away",
       "xHome": 0,
       "xAway": 1
@@ -621,9 +621,9 @@
       "stage": "group-stage",
       "date": "2026-06-22T17:00Z",
       "status": "pre",
-      "pHome": 0.7628,
-      "pDraw": 0.1579,
-      "pAway": 0.0793,
+      "pHome": 0.7673,
+      "pDraw": 0.1488,
+      "pAway": 0.0839,
       "predicted": "home",
       "xHome": 2,
       "xAway": 0
@@ -636,9 +636,9 @@
       "stage": "group-stage",
       "date": "2026-06-22T21:00Z",
       "status": "pre",
-      "pHome": 0.8284,
-      "pDraw": 0.1277,
-      "pAway": 0.044,
+      "pHome": 0.8317,
+      "pDraw": 0.121,
+      "pAway": 0.0473,
       "predicted": "home",
       "xHome": 2,
       "xAway": 0
@@ -651,12 +651,12 @@
       "stage": "group-stage",
       "date": "2026-06-23T00:00Z",
       "status": "pre",
-      "pHome": 0.4566,
-      "pDraw": 0.2454,
-      "pAway": 0.298,
+      "pHome": 0.4639,
+      "pDraw": 0.2307,
+      "pAway": 0.3053,
       "predicted": "home",
       "xHome": 1,
-      "xAway": 1
+      "xAway": 0
     },
     "760455": {
       "home": "Jordan",
@@ -666,9 +666,9 @@
       "stage": "group-stage",
       "date": "2026-06-23T03:00Z",
       "status": "pre",
-      "pHome": 0.2624,
-      "pDraw": 0.2412,
-      "pAway": 0.4964,
+      "pHome": 0.2696,
+      "pDraw": 0.2268,
+      "pAway": 0.5037,
       "predicted": "away",
       "xHome": 0,
       "xAway": 1
@@ -681,9 +681,9 @@
       "stage": "group-stage",
       "date": "2026-06-23T17:00Z",
       "status": "pre",
-      "pHome": 0.6458,
-      "pDraw": 0.2036,
-      "pAway": 0.1506,
+      "pHome": 0.6519,
+      "pDraw": 0.1915,
+      "pAway": 0.1566,
       "predicted": "home",
       "xHome": 1,
       "xAway": 0
@@ -696,9 +696,9 @@
       "stage": "group-stage",
       "date": "2026-06-23T20:00Z",
       "status": "pre",
-      "pHome": 0.9066,
-      "pDraw": 0.0814,
-      "pAway": 0.0119,
+      "pHome": 0.908,
+      "pDraw": 0.0787,
+      "pAway": 0.0133,
       "predicted": "home",
       "xHome": 2,
       "xAway": 0
@@ -711,9 +711,9 @@
       "stage": "group-stage",
       "date": "2026-06-23T23:00Z",
       "status": "pre",
-      "pHome": 0.2374,
-      "pDraw": 0.2326,
-      "pAway": 0.53,
+      "pHome": 0.2443,
+      "pDraw": 0.2187,
+      "pAway": 0.537,
       "predicted": "away",
       "xHome": 0,
       "xAway": 1
@@ -726,11 +726,11 @@
       "stage": "group-stage",
       "date": "2026-06-24T02:00Z",
       "status": "pre",
-      "pHome": 0.7363,
-      "pDraw": 0.1703,
-      "pAway": 0.0934,
+      "pHome": 0.7412,
+      "pDraw": 0.1604,
+      "pAway": 0.0983,
       "predicted": "home",
-      "xHome": 2,
+      "xHome": 1,
       "xAway": 0
     },
     "760462": {
@@ -741,12 +741,12 @@
       "stage": "group-stage",
       "date": "2026-06-24T19:00Z",
       "status": "pre",
-      "pHome": 0.4509,
-      "pDraw": 0.2404,
-      "pAway": 0.3087,
+      "pHome": 0.458,
+      "pDraw": 0.2261,
+      "pAway": 0.3159,
       "predicted": "home",
       "xHome": 1,
-      "xAway": 1
+      "xAway": 0
     },
     "760463": {
       "home": "Switzerland",
@@ -756,12 +756,12 @@
       "stage": "group-stage",
       "date": "2026-06-24T19:00Z",
       "status": "pre",
-      "pHome": 0.4435,
-      "pDraw": 0.2422,
-      "pAway": 0.3142,
+      "pHome": 0.4508,
+      "pDraw": 0.2277,
+      "pAway": 0.3215,
       "predicted": "home",
       "xHome": 1,
-      "xAway": 1
+      "xAway": 0
     },
     "760464": {
       "home": "Morocco",
@@ -771,11 +771,11 @@
       "stage": "group-stage",
       "date": "2026-06-24T22:00Z",
       "status": "pre",
-      "pHome": 0.7423,
-      "pDraw": 0.1701,
-      "pAway": 0.0876,
+      "pHome": 0.7471,
+      "pDraw": 0.1604,
+      "pAway": 0.0925,
       "predicted": "home",
-      "xHome": 2,
+      "xHome": 1,
       "xAway": 0
     },
     "760465": {
@@ -786,9 +786,9 @@
       "stage": "group-stage",
       "date": "2026-06-24T22:00Z",
       "status": "pre",
-      "pHome": 0.1819,
-      "pDraw": 0.2088,
-      "pAway": 0.6093,
+      "pHome": 0.1882,
+      "pDraw": 0.1963,
+      "pAway": 0.6155,
       "predicted": "away",
       "xHome": 0,
       "xAway": 1
@@ -801,9 +801,9 @@
       "stage": "group-stage",
       "date": "2026-06-25T01:00Z",
       "status": "pre",
-      "pHome": 0.1571,
-      "pDraw": 0.1991,
-      "pAway": 0.6438,
+      "pHome": 0.1631,
+      "pDraw": 0.1871,
+      "pAway": 0.6498,
       "predicted": "away",
       "xHome": 0,
       "xAway": 1
@@ -816,9 +816,9 @@
       "stage": "group-stage",
       "date": "2026-06-25T01:00Z",
       "status": "pre",
-      "pHome": 0.1135,
-      "pDraw": 0.1829,
-      "pAway": 0.7036,
+      "pHome": 0.1189,
+      "pDraw": 0.1721,
+      "pAway": 0.709,
       "predicted": "away",
       "xHome": 0,
       "xAway": 1
@@ -831,9 +831,9 @@
       "stage": "group-stage",
       "date": "2026-06-25T20:00Z",
       "status": "pre",
-      "pHome": 0.1713,
-      "pDraw": 0.211,
-      "pAway": 0.6177,
+      "pHome": 0.1776,
+      "pDraw": 0.1983,
+      "pAway": 0.624,
       "predicted": "away",
       "xHome": 0,
       "xAway": 1
@@ -846,9 +846,9 @@
       "stage": "group-stage",
       "date": "2026-06-25T20:00Z",
       "status": "pre",
-      "pHome": 0.3974,
-      "pDraw": 0.2432,
-      "pAway": 0.3594,
+      "pHome": 0.4047,
+      "pDraw": 0.2287,
+      "pAway": 0.3666,
       "predicted": "home",
       "xHome": 1,
       "xAway": 1
@@ -861,9 +861,9 @@
       "stage": "group-stage",
       "date": "2026-06-25T23:00Z",
       "status": "pre",
-      "pHome": 0.6569,
-      "pDraw": 0.2031,
-      "pAway": 0.1399,
+      "pHome": 0.6629,
+      "pDraw": 0.1911,
+      "pAway": 0.1459,
       "predicted": "home",
       "xHome": 1,
       "xAway": 0
@@ -876,9 +876,9 @@
       "stage": "group-stage",
       "date": "2026-06-25T23:00Z",
       "status": "pre",
-      "pHome": 0.0896,
-      "pDraw": 0.1761,
-      "pAway": 0.7343,
+      "pHome": 0.0946,
+      "pDraw": 0.1662,
+      "pAway": 0.7393,
       "predicted": "away",
       "xHome": 0,
       "xAway": 1
@@ -891,9 +891,9 @@
       "stage": "group-stage",
       "date": "2026-06-26T02:00Z",
       "status": "pre",
-      "pHome": 0.4056,
-      "pDraw": 0.2437,
-      "pAway": 0.3507,
+      "pHome": 0.4129,
+      "pDraw": 0.2292,
+      "pAway": 0.3579,
       "predicted": "home",
       "xHome": 1,
       "xAway": 1
@@ -906,9 +906,9 @@
       "stage": "group-stage",
       "date": "2026-06-26T02:00Z",
       "status": "pre",
-      "pHome": 0.5321,
-      "pDraw": 0.2283,
-      "pAway": 0.2396,
+      "pHome": 0.5389,
+      "pDraw": 0.2147,
+      "pAway": 0.2465,
       "predicted": "home",
       "xHome": 1,
       "xAway": 0
@@ -921,9 +921,9 @@
       "stage": "group-stage",
       "date": "2026-06-26T19:00Z",
       "status": "pre",
-      "pHome": 0.2037,
-      "pDraw": 0.2222,
-      "pAway": 0.5741,
+      "pHome": 0.2104,
+      "pDraw": 0.2089,
+      "pAway": 0.5808,
       "predicted": "away",
       "xHome": 0,
       "xAway": 1
@@ -936,9 +936,9 @@
       "stage": "group-stage",
       "date": "2026-06-26T19:00Z",
       "status": "pre",
-      "pHome": 0.5706,
-      "pDraw": 0.225,
-      "pAway": 0.2044,
+      "pHome": 0.5774,
+      "pDraw": 0.2115,
+      "pAway": 0.2111,
       "predicted": "home",
       "xHome": 1,
       "xAway": 0
@@ -951,11 +951,11 @@
       "stage": "group-stage",
       "date": "2026-06-27T00:00Z",
       "status": "pre",
-      "pHome": 0.2852,
-      "pDraw": 0.2382,
-      "pAway": 0.4766,
+      "pHome": 0.2923,
+      "pDraw": 0.2239,
+      "pAway": 0.4837,
       "predicted": "away",
-      "xHome": 1,
+      "xHome": 0,
       "xAway": 1
     },
     "760479": {
@@ -966,9 +966,9 @@
       "stage": "group-stage",
       "date": "2026-06-27T00:00Z",
       "status": "pre",
-      "pHome": 0.1342,
-      "pDraw": 0.2008,
-      "pAway": 0.665,
+      "pHome": 0.1401,
+      "pDraw": 0.189,
+      "pAway": 0.6709,
       "predicted": "away",
       "xHome": 0,
       "xAway": 1
@@ -981,9 +981,9 @@
       "stage": "group-stage",
       "date": "2026-06-27T03:00Z",
       "status": "pre",
-      "pHome": 0.2635,
-      "pDraw": 0.2348,
-      "pAway": 0.5017,
+      "pHome": 0.2705,
+      "pDraw": 0.2208,
+      "pAway": 0.5087,
       "predicted": "away",
       "xHome": 0,
       "xAway": 1
@@ -996,9 +996,9 @@
       "stage": "group-stage",
       "date": "2026-06-27T03:00Z",
       "status": "pre",
-      "pHome": 0.1405,
-      "pDraw": 0.1972,
-      "pAway": 0.6623,
+      "pHome": 0.1464,
+      "pDraw": 0.1854,
+      "pAway": 0.6682,
       "predicted": "away",
       "xHome": 0,
       "xAway": 1
@@ -1011,9 +1011,9 @@
       "stage": "group-stage",
       "date": "2026-06-27T21:00Z",
       "status": "pre",
-      "pHome": 0.8027,
-      "pDraw": 0.1434,
-      "pAway": 0.0539,
+      "pHome": 0.8065,
+      "pDraw": 0.1358,
+      "pAway": 0.0576,
       "predicted": "home",
       "xHome": 2,
       "xAway": 0
@@ -1026,12 +1026,12 @@
       "stage": "group-stage",
       "date": "2026-06-27T21:00Z",
       "status": "pre",
-      "pHome": 0.1149,
-      "pDraw": 0.1815,
-      "pAway": 0.7035,
+      "pHome": 0.1203,
+      "pDraw": 0.1708,
+      "pAway": 0.7089,
       "predicted": "away",
       "xHome": 0,
-      "xAway": 2
+      "xAway": 1
     },
     "760481": {
       "home": "Colombia",
@@ -1041,9 +1041,9 @@
       "stage": "group-stage",
       "date": "2026-06-27T23:30Z",
       "status": "pre",
-      "pHome": 0.3864,
-      "pDraw": 0.2448,
-      "pAway": 0.3689,
+      "pHome": 0.3937,
+      "pDraw": 0.2302,
+      "pAway": 0.3762,
       "predicted": "home",
       "xHome": 1,
       "xAway": 1
@@ -1056,11 +1056,11 @@
       "stage": "group-stage",
       "date": "2026-06-27T23:30Z",
       "status": "pre",
-      "pHome": 0.2972,
-      "pDraw": 0.2449,
-      "pAway": 0.4579,
+      "pHome": 0.3046,
+      "pDraw": 0.2302,
+      "pAway": 0.4652,
       "predicted": "away",
-      "xHome": 1,
+      "xHome": 0,
       "xAway": 1
     },
     "760484": {
@@ -1071,9 +1071,9 @@
       "stage": "group-stage",
       "date": "2026-06-28T02:00Z",
       "status": "pre",
-      "pHome": 0.3816,
-      "pDraw": 0.248,
-      "pAway": 0.3704,
+      "pHome": 0.389,
+      "pDraw": 0.2331,
+      "pAway": 0.3779,
       "predicted": "home",
       "xHome": 1,
       "xAway": 1
@@ -1086,9 +1086,9 @@
       "stage": "group-stage",
       "date": "2026-06-28T02:00Z",
       "status": "pre",
-      "pHome": 0.0351,
-      "pDraw": 0.1172,
-      "pAway": 0.8477,
+      "pHome": 0.038,
+      "pDraw": 0.1114,
+      "pAway": 0.8506,
       "predicted": "away",
       "xHome": 0,
       "xAway": 2
@@ -1102,11 +1102,11 @@
       "group": "Group H",
       "elo": 2210.1,
       "form": 0.94,
-      "winCup": 0.3055,
-      "reachFinal": 0.4631,
-      "reachR16": 0.9653,
-      "qualify": 0.997,
-      "winGroup": 0.8104
+      "winCup": 0.3012,
+      "reachFinal": 0.4562,
+      "reachR16": 0.9627,
+      "qualify": 0.9969,
+      "winGroup": 0.8093
     },
     {
       "teamId": "202",
@@ -1115,11 +1115,11 @@
       "group": "Group J",
       "elo": 2169.6,
       "form": 1.021,
-      "winCup": 0.253,
-      "reachFinal": 0.4119,
-      "reachR16": 0.9466,
-      "qualify": 0.9919,
-      "winGroup": 0.8418
+      "winCup": 0.2498,
+      "reachFinal": 0.4052,
+      "reachR16": 0.9439,
+      "qualify": 0.9915,
+      "winGroup": 0.84
     },
     {
       "teamId": "478",
@@ -1128,11 +1128,11 @@
       "group": "Group I",
       "elo": 2114.2,
       "form": 1.008,
-      "winCup": 0.1194,
-      "reachFinal": 0.2399,
-      "reachR16": 0.8605,
-      "qualify": 0.9715,
-      "winGroup": 0.6612
+      "winCup": 0.1188,
+      "reachFinal": 0.2382,
+      "reachR16": 0.8553,
+      "qualify": 0.9713,
+      "winGroup": 0.659
     },
     {
       "teamId": "448",
@@ -1141,11 +1141,11 @@
       "group": "Group L",
       "elo": 2089.2,
       "form": 1.015,
-      "winCup": 0.0917,
-      "reachFinal": 0.191,
-      "reachR16": 0.8394,
-      "qualify": 0.9873,
-      "winGroup": 0.6671
+      "winCup": 0.0916,
+      "reachFinal": 0.1906,
+      "reachR16": 0.8363,
+      "qualify": 0.9871,
+      "winGroup": 0.6663
     },
     {
       "teamId": "205",
@@ -1154,11 +1154,11 @@
       "group": "Group C",
       "elo": 2043.5,
       "form": 1.011,
-      "winCup": 0.0393,
-      "reachFinal": 0.0947,
-      "reachR16": 0.717,
-      "qualify": 0.9518,
-      "winGroup": 0.5286
+      "winCup": 0.0396,
+      "reachFinal": 0.0954,
+      "reachR16": 0.7129,
+      "qualify": 0.9515,
+      "winGroup": 0.527
     },
     {
       "teamId": "208",
@@ -1167,11 +1167,11 @@
       "group": "Group K",
       "elo": 2042.8,
       "form": 0.999,
-      "winCup": 0.0338,
-      "reachFinal": 0.0864,
-      "reachR16": 0.6836,
-      "qualify": 0.9348,
-      "winGroup": 0.4699
+      "winCup": 0.0343,
+      "reachFinal": 0.087,
+      "reachR16": 0.6783,
+      "qualify": 0.9344,
+      "winGroup": 0.4703
     },
     {
       "teamId": "482",
@@ -1180,11 +1180,11 @@
       "group": "Group K",
       "elo": 2036.4,
       "form": 0.996,
-      "winCup": 0.031,
-      "reachFinal": 0.079,
-      "reachR16": 0.6656,
-      "qualify": 0.9268,
-      "winGroup": 0.4395
+      "winCup": 0.0312,
+      "reachFinal": 0.0788,
+      "reachR16": 0.6617,
+      "qualify": 0.9277,
+      "winGroup": 0.438
     },
     {
       "teamId": "209",
@@ -1193,11 +1193,11 @@
       "group": "Group E",
       "elo": 2008.2,
       "form": 1.017,
-      "winCup": 0.0207,
-      "reachFinal": 0.0573,
-      "reachR16": 0.6356,
-      "qualify": 0.9671,
-      "winGroup": 0.4934
+      "winCup": 0.0217,
+      "reachFinal": 0.0585,
+      "reachR16": 0.6297,
+      "qualify": 0.9668,
+      "winGroup": 0.4925
     },
     {
       "teamId": "481",
@@ -1206,11 +1206,11 @@
       "group": "Group E",
       "elo": 1997.8,
       "form": 0.997,
-      "winCup": 0.0143,
-      "reachFinal": 0.0447,
-      "reachR16": 0.5771,
-      "qualify": 0.9544,
-      "winGroup": 0.4296
+      "winCup": 0.0149,
+      "reachFinal": 0.0456,
+      "reachR16": 0.5762,
+      "qualify": 0.954,
+      "winGroup": 0.4294
     },
     {
       "teamId": "449",
@@ -1219,24 +1219,11 @@
       "group": "Group F",
       "elo": 2005.3,
       "form": 0.964,
-      "winCup": 0.0133,
-      "reachFinal": 0.0448,
-      "reachR16": 0.5678,
-      "qualify": 0.9409,
-      "winGroup": 0.4901
-    },
-    {
-      "teamId": "2869",
-      "name": "Morocco",
-      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
-      "group": "Group C",
-      "elo": 1991.2,
-      "form": 0.979,
-      "winCup": 0.0109,
-      "reachFinal": 0.035,
-      "reachR16": 0.5064,
-      "qualify": 0.8961,
-      "winGroup": 0.3338
+      "winCup": 0.0138,
+      "reachFinal": 0.0456,
+      "reachR16": 0.5687,
+      "qualify": 0.941,
+      "winGroup": 0.4896
     },
     {
       "teamId": "627",
@@ -1245,11 +1232,24 @@
       "group": "Group F",
       "elo": 1989.8,
       "form": 0.955,
+      "winCup": 0.0111,
+      "reachFinal": 0.0343,
+      "reachR16": 0.4985,
+      "qualify": 0.9239,
+      "winGroup": 0.4234
+    },
+    {
+      "teamId": "2869",
+      "name": "Morocco",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
+      "group": "Group C",
+      "elo": 1991.2,
+      "form": 0.979,
       "winCup": 0.0107,
-      "reachFinal": 0.0335,
-      "reachR16": 0.4995,
-      "qualify": 0.9245,
-      "winGroup": 0.4246
+      "reachFinal": 0.0357,
+      "reachR16": 0.5002,
+      "qualify": 0.8942,
+      "winGroup": 0.3346
     },
     {
       "teamId": "203",
@@ -1258,11 +1258,11 @@
       "group": "Group A",
       "elo": 1958.1,
       "form": 1.056,
-      "winCup": 0.0086,
-      "reachFinal": 0.0295,
-      "reachR16": 0.5461,
-      "qualify": 0.99,
-      "winGroup": 0.5839
+      "winCup": 0.0095,
+      "reachFinal": 0.0317,
+      "reachR16": 0.5492,
+      "qualify": 0.9895,
+      "winGroup": 0.5827
     },
     {
       "teamId": "465",
@@ -1271,11 +1271,11 @@
       "group": "Group D",
       "elo": 1957.3,
       "form": 1.024,
-      "winCup": 0.0069,
-      "reachFinal": 0.0207,
-      "reachR16": 0.4508,
-      "qualify": 0.8212,
-      "winGroup": 0.3815
+      "winCup": 0.0073,
+      "reachFinal": 0.022,
+      "reachR16": 0.4496,
+      "qualify": 0.8202,
+      "winGroup": 0.3793
     },
     {
       "teamId": "464",
@@ -1284,11 +1284,11 @@
       "group": "Group I",
       "elo": 1969.8,
       "form": 0.96,
-      "winCup": 0.0063,
-      "reachFinal": 0.0208,
-      "reachR16": 0.3885,
-      "qualify": 0.8103,
-      "winGroup": 0.2067
+      "winCup": 0.0064,
+      "reachFinal": 0.0216,
+      "reachR16": 0.3888,
+      "qualify": 0.8092,
+      "winGroup": 0.208
     },
     {
       "teamId": "477",
@@ -1297,11 +1297,11 @@
       "group": "Group L",
       "elo": 1963.4,
       "form": 0.972,
-      "winCup": 0.0059,
-      "reachFinal": 0.0218,
-      "reachR16": 0.4259,
-      "qualify": 0.9063,
-      "winGroup": 0.2485
+      "winCup": 0.0061,
+      "reachFinal": 0.0222,
+      "reachR16": 0.4268,
+      "qualify": 0.9053,
+      "winGroup": 0.2481
     },
     {
       "teamId": "459",
@@ -1310,11 +1310,11 @@
       "group": "Group G",
       "elo": 1925.7,
       "form": 1.049,
-      "winCup": 0.0053,
-      "reachFinal": 0.0177,
-      "reachR16": 0.4974,
-      "qualify": 0.8965,
-      "winGroup": 0.4676
+      "winCup": 0.0059,
+      "reachFinal": 0.0186,
+      "reachR16": 0.4966,
+      "qualify": 0.896,
+      "winGroup": 0.4658
     },
     {
       "teamId": "475",
@@ -1323,11 +1323,11 @@
       "group": "Group B",
       "elo": 1937.1,
       "form": 1.005,
-      "winCup": 0.0052,
-      "reachFinal": 0.0207,
-      "reachR16": 0.5349,
-      "qualify": 0.9687,
-      "winGroup": 0.5533
+      "winCup": 0.0058,
+      "reachFinal": 0.0217,
+      "reachR16": 0.5326,
+      "qualify": 0.9683,
+      "winGroup": 0.5527
     },
     {
       "teamId": "212",
@@ -1336,11 +1336,11 @@
       "group": "Group H",
       "elo": 1962.6,
       "form": 0.998,
-      "winCup": 0.0052,
+      "winCup": 0.0053,
       "reachFinal": 0.0186,
-      "reachR16": 0.4218,
-      "qualify": 0.9273,
-      "winGroup": 0.1772
+      "reachR16": 0.4201,
+      "qualify": 0.926,
+      "winGroup": 0.1779
     },
     {
       "teamId": "451",
@@ -1349,11 +1349,24 @@
       "group": "Group A",
       "elo": 1904.5,
       "form": 1.015,
-      "winCup": 0.0022,
-      "reachFinal": 0.0119,
-      "reachR16": 0.482,
-      "qualify": 0.9801,
-      "winGroup": 0.3908
+      "winCup": 0.0027,
+      "reachFinal": 0.0124,
+      "reachR16": 0.4804,
+      "qualify": 0.9789,
+      "winGroup": 0.391
+    },
+    {
+      "teamId": "206",
+      "name": "Canada",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/can.png",
+      "group": "Group B",
+      "elo": 1889.2,
+      "form": 0.985,
+      "winCup": 0.0024,
+      "reachFinal": 0.0101,
+      "reachR16": 0.446,
+      "qualify": 0.9333,
+      "winGroup": 0.3892
     },
     {
       "teamId": "210",
@@ -1363,10 +1376,10 @@
       "elo": 1905.7,
       "form": 1.049,
       "winCup": 0.0022,
-      "reachFinal": 0.0096,
-      "reachR16": 0.3457,
+      "reachFinal": 0.0093,
+      "reachR16": 0.3465,
       "qualify": 0.7319,
-      "winGroup": 0.271
+      "winGroup": 0.2722
     },
     {
       "teamId": "469",
@@ -1375,37 +1388,11 @@
       "group": "Group G",
       "elo": 1892.4,
       "form": 1.009,
-      "winCup": 0.0018,
-      "reachFinal": 0.0086,
-      "reachR16": 0.3886,
-      "qualify": 0.8388,
-      "winGroup": 0.3362
-    },
-    {
-      "teamId": "206",
-      "name": "Canada",
-      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/can.png",
-      "group": "Group B",
-      "elo": 1889.2,
-      "form": 0.985,
-      "winCup": 0.0017,
-      "reachFinal": 0.0096,
-      "reachR16": 0.4426,
-      "qualify": 0.9342,
-      "winGroup": 0.3896
-    },
-    {
-      "teamId": "654",
-      "name": "Senegal",
-      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sen.png",
-      "group": "Group I",
-      "elo": 1901.0,
-      "form": 0.969,
-      "winCup": 0.0015,
-      "reachFinal": 0.0063,
-      "reachR16": 0.2715,
-      "qualify": 0.6718,
-      "winGroup": 0.1159
+      "winCup": 0.0022,
+      "reachFinal": 0.0092,
+      "reachR16": 0.3901,
+      "qualify": 0.8394,
+      "winGroup": 0.3345
     },
     {
       "teamId": "628",
@@ -1414,24 +1401,37 @@
       "group": "Group D",
       "elo": 1907.1,
       "form": 0.955,
-      "winCup": 0.0014,
-      "reachFinal": 0.0066,
-      "reachR16": 0.2985,
-      "qualify": 0.6792,
-      "winGroup": 0.2116
+      "winCup": 0.0016,
+      "reachFinal": 0.0067,
+      "reachR16": 0.2987,
+      "qualify": 0.6796,
+      "winGroup": 0.2127
     },
     {
-      "teamId": "624",
-      "name": "Algeria",
-      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/alg.png",
+      "teamId": "654",
+      "name": "Senegal",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/sen.png",
+      "group": "Group I",
+      "elo": 1901.0,
+      "form": 0.969,
+      "winCup": 0.0016,
+      "reachFinal": 0.007,
+      "reachR16": 0.2725,
+      "qualify": 0.6724,
+      "winGroup": 0.1163
+    },
+    {
+      "teamId": "474",
+      "name": "Austria",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/aut.png",
       "group": "Group J",
-      "elo": 1870.4,
-      "form": 0.98,
+      "elo": 1868.3,
+      "form": 0.971,
       "winCup": 0.0006,
-      "reachFinal": 0.0034,
-      "reachR16": 0.2422,
-      "qualify": 0.6387,
-      "winGroup": 0.0709
+      "reachFinal": 0.0036,
+      "reachR16": 0.2344,
+      "qualify": 0.6212,
+      "winGroup": 0.0675
     },
     {
       "teamId": "580",
@@ -1441,36 +1441,23 @@
       "elo": 1851.6,
       "form": 1.079,
       "winCup": 0.0005,
-      "reachFinal": 0.004,
-      "reachR16": 0.259,
-      "qualify": 0.6919,
-      "winGroup": 0.1246
+      "reachFinal": 0.0045,
+      "reachR16": 0.2596,
+      "qualify": 0.6923,
+      "winGroup": 0.1255
     },
     {
-      "teamId": "474",
-      "name": "Austria",
-      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/aut.png",
+      "teamId": "624",
+      "name": "Algeria",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/alg.png",
       "group": "Group J",
-      "elo": 1868.3,
-      "form": 0.971,
-      "winCup": 0.0005,
-      "reachFinal": 0.0032,
-      "reachR16": 0.2311,
-      "qualify": 0.6214,
-      "winGroup": 0.0669
-    },
-    {
-      "teamId": "660",
-      "name": "United States",
-      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
-      "group": "Group D",
-      "elo": 1844.4,
-      "form": 0.993,
-      "winCup": 0.0003,
-      "reachFinal": 0.0018,
-      "reachR16": 0.1865,
-      "qualify": 0.5347,
-      "winGroup": 0.1359
+      "elo": 1870.4,
+      "form": 0.98,
+      "winCup": 0.0004,
+      "reachFinal": 0.0036,
+      "reachR16": 0.2424,
+      "qualify": 0.6388,
+      "winGroup": 0.0713
     },
     {
       "teamId": "2659",
@@ -1480,10 +1467,36 @@
       "elo": 1835.3,
       "form": 0.995,
       "winCup": 0.0003,
-      "reachFinal": 0.0013,
-      "reachR16": 0.2095,
-      "qualify": 0.6888,
-      "winGroup": 0.0823
+      "reachFinal": 0.0014,
+      "reachR16": 0.2094,
+      "qualify": 0.6866,
+      "winGroup": 0.0829
+    },
+    {
+      "teamId": "660",
+      "name": "United States",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+      "group": "Group D",
+      "elo": 1844.4,
+      "form": 0.993,
+      "winCup": 0.0002,
+      "reachFinal": 0.0015,
+      "reachR16": 0.1895,
+      "qualify": 0.5359,
+      "winGroup": 0.1358
+    },
+    {
+      "teamId": "4789",
+      "name": "Ivory Coast",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png",
+      "group": "Group E",
+      "elo": 1795.6,
+      "form": 1.0,
+      "winCup": 0.0001,
+      "reachFinal": 0.0006,
+      "reachR16": 0.1411,
+      "qualify": 0.6303,
+      "winGroup": 0.0732
     },
     {
       "teamId": "466",
@@ -1494,9 +1507,9 @@
       "form": 0.964,
       "winCup": 0.0001,
       "reachFinal": 0.0001,
-      "reachR16": 0.0775,
-      "qualify": 0.4807,
-      "winGroup": 0.0559
+      "reachR16": 0.0799,
+      "qualify": 0.4801,
+      "winGroup": 0.0569
     },
     {
       "teamId": "2570",
@@ -1506,10 +1519,23 @@
       "elo": 1831.1,
       "form": 0.954,
       "winCup": 0.0001,
-      "reachFinal": 0.0009,
-      "reachR16": 0.1326,
-      "qualify": 0.5014,
-      "winGroup": 0.0629
+      "reachFinal": 0.0011,
+      "reachR16": 0.1354,
+      "qualify": 0.5013,
+      "winGroup": 0.0638
+    },
+    {
+      "teamId": "2850",
+      "name": "Congo DR",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rdc.png",
+      "group": "Group K",
+      "elo": 1756.6,
+      "form": 0.984,
+      "winCup": 0.0001,
+      "reachFinal": 0.0001,
+      "reachR16": 0.0488,
+      "qualify": 0.3054,
+      "winGroup": 0.0279
     },
     {
       "teamId": "450",
@@ -1520,9 +1546,9 @@
       "form": 0.982,
       "winCup": 0.0,
       "reachFinal": 0.0003,
-      "reachR16": 0.0717,
-      "qualify": 0.5218,
-      "winGroup": 0.0215
+      "reachR16": 0.0755,
+      "qualify": 0.5245,
+      "winGroup": 0.0225
     },
     {
       "teamId": "467",
@@ -1533,9 +1559,9 @@
       "form": 0.941,
       "winCup": 0.0,
       "reachFinal": 0.0,
-      "reachR16": 0.0084,
-      "qualify": 0.1896,
-      "winGroup": 0.0038
+      "reachR16": 0.0087,
+      "qualify": 0.1905,
+      "winGroup": 0.0039
     },
     {
       "teamId": "452",
@@ -1546,7 +1572,7 @@
       "form": 1.014,
       "winCup": 0.0,
       "reachFinal": 0.0,
-      "reachR16": 0.0259,
+      "reachR16": 0.0272,
       "qualify": 0.4511,
       "winGroup": 0.0398
     },
@@ -1559,9 +1585,9 @@
       "form": 0.994,
       "winCup": 0.0,
       "reachFinal": 0.0,
-      "reachR16": 0.0095,
-      "qualify": 0.2772,
-      "winGroup": 0.0174
+      "reachR16": 0.0109,
+      "qualify": 0.2783,
+      "winGroup": 0.0181
     },
     {
       "teamId": "2654",
@@ -1572,22 +1598,9 @@
       "form": 0.947,
       "winCup": 0.0,
       "reachFinal": 0.0,
-      "reachR16": 0.0138,
-      "qualify": 0.1809,
-      "winGroup": 0.0129
-    },
-    {
-      "teamId": "4789",
-      "name": "Ivory Coast",
-      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png",
-      "group": "Group E",
-      "elo": 1795.6,
-      "form": 1.0,
-      "winCup": 0.0,
-      "reachFinal": 0.0005,
-      "reachR16": 0.1405,
-      "qualify": 0.6318,
-      "winGroup": 0.0723
+      "reachR16": 0.0143,
+      "qualify": 0.1817,
+      "winGroup": 0.013
     },
     {
       "teamId": "11678",
@@ -1598,9 +1611,9 @@
       "form": 0.974,
       "winCup": 0.0,
       "reachFinal": 0.0,
-      "reachR16": 0.0036,
-      "qualify": 0.1245,
-      "winGroup": 0.0046
+      "reachR16": 0.004,
+      "qualify": 0.1256,
+      "winGroup": 0.005
     },
     {
       "teamId": "659",
@@ -1611,9 +1624,9 @@
       "form": 0.88,
       "winCup": 0.0,
       "reachFinal": 0.0,
-      "reachR16": 0.0294,
-      "qualify": 0.3165,
-      "winGroup": 0.0294
+      "reachR16": 0.0308,
+      "qualify": 0.3189,
+      "winGroup": 0.0301
     },
     {
       "teamId": "2620",
@@ -1623,10 +1636,10 @@
       "elo": 1799.4,
       "form": 0.988,
       "winCup": 0.0,
-      "reachFinal": 0.0006,
-      "reachR16": 0.1618,
+      "reachFinal": 0.0008,
+      "reachR16": 0.1663,
       "qualify": 0.622,
-      "winGroup": 0.1429
+      "winGroup": 0.1447
     },
     {
       "teamId": "2666",
@@ -1637,9 +1650,9 @@
       "form": 0.88,
       "winCup": 0.0,
       "reachFinal": 0.0001,
-      "reachR16": 0.0477,
-      "qualify": 0.37,
-      "winGroup": 0.0533
+      "reachR16": 0.0496,
+      "qualify": 0.372,
+      "winGroup": 0.0551
     },
     {
       "teamId": "655",
@@ -1650,9 +1663,9 @@
       "form": 1.006,
       "winCup": 0.0,
       "reachFinal": 0.0,
-      "reachR16": 0.0307,
-      "qualify": 0.3805,
-      "winGroup": 0.0089
+      "reachR16": 0.0321,
+      "qualify": 0.38,
+      "winGroup": 0.0092
     },
     {
       "teamId": "2597",
@@ -1663,9 +1676,9 @@
       "form": 0.995,
       "winCup": 0.0,
       "reachFinal": 0.0,
-      "reachR16": 0.0081,
-      "qualify": 0.1935,
-      "winGroup": 0.0036
+      "reachR16": 0.0086,
+      "qualify": 0.1938,
+      "winGroup": 0.0037
     },
     {
       "teamId": "4375",
@@ -1676,9 +1689,9 @@
       "form": 0.983,
       "winCup": 0.0,
       "reachFinal": 0.0,
-      "reachR16": 0.032,
-      "qualify": 0.2278,
-      "winGroup": 0.0162
+      "reachR16": 0.0334,
+      "qualify": 0.2296,
+      "winGroup": 0.0167
     },
     {
       "teamId": "2917",
@@ -1689,22 +1702,9 @@
       "form": 0.927,
       "winCup": 0.0,
       "reachFinal": 0.0001,
-      "reachR16": 0.0703,
-      "qualify": 0.3547,
-      "winGroup": 0.0203
-    },
-    {
-      "teamId": "2850",
-      "name": "Congo DR",
-      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/rdc.png",
-      "group": "Group K",
-      "elo": 1756.6,
-      "form": 0.984,
-      "winCup": 0.0,
-      "reachFinal": 0.0,
-      "reachR16": 0.0467,
-      "qualify": 0.3048,
-      "winGroup": 0.0276
+      "reachR16": 0.0722,
+      "qualify": 0.3546,
+      "winGroup": 0.0211
     },
     {
       "teamId": "4469",
@@ -1715,9 +1715,9 @@
       "form": 0.948,
       "winCup": 0.0,
       "reachFinal": 0.0,
-      "reachR16": 0.0032,
-      "qualify": 0.0958,
-      "winGroup": 0.0022
+      "reachR16": 0.0037,
+      "qualify": 0.0954,
+      "winGroup": 0.0027
     }
   ],
   "accuracy": {
