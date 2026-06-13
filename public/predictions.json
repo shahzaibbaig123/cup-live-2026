@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-13T06:10:51+00:00",
+  "generatedAt": "2026-06-13T10:23:25+00:00",
   "meta": {
     "model": "Elo + Dixon-Coles Poisson + TimesFM form (hybrid)",
     "timesfmUsed": true,
@@ -72,8 +72,8 @@
       "pDraw": 0.2214,
       "pAway": 0.482,
       "predicted": "away",
-      "xHome": 0,
-      "xAway": 1,
+      "xHome": 1,
+      "xAway": 0,
       "result": "home",
       "score": "4-1"
     },
@@ -85,9 +85,9 @@
       "stage": "group-stage",
       "date": "2026-06-13T19:00Z",
       "status": "pre",
-      "pHome": 0.0626,
+      "pHome": 0.0627,
       "pDraw": 0.1343,
-      "pAway": 0.8031,
+      "pAway": 0.803,
       "predicted": "away",
       "xHome": 0,
       "xAway": 2
@@ -175,7 +175,7 @@
       "stage": "group-stage",
       "date": "2026-06-14T23:00Z",
       "status": "pre",
-      "pHome": 0.1539,
+      "pHome": 0.154,
       "pDraw": 0.1862,
       "pAway": 0.6598,
       "predicted": "away",
@@ -235,9 +235,9 @@
       "stage": "group-stage",
       "date": "2026-06-15T22:00Z",
       "status": "pre",
-      "pHome": 0.1241,
+      "pHome": 0.1242,
       "pDraw": 0.1742,
-      "pAway": 0.7017,
+      "pAway": 0.7016,
       "predicted": "away",
       "xHome": 0,
       "xAway": 1
@@ -296,8 +296,8 @@
       "date": "2026-06-17T01:00Z",
       "status": "pre",
       "pHome": 0.7638,
-      "pDraw": 0.15,
-      "pAway": 0.0861,
+      "pDraw": 0.1501,
+      "pAway": 0.0862,
       "predicted": "home",
       "xHome": 2,
       "xAway": 0
@@ -310,7 +310,7 @@
       "stage": "group-stage",
       "date": "2026-06-17T04:00Z",
       "status": "pre",
-      "pHome": 0.4973,
+      "pHome": 0.4972,
       "pDraw": 0.2284,
       "pAway": 0.2744,
       "predicted": "home",
@@ -326,8 +326,8 @@
       "date": "2026-06-17T17:00Z",
       "status": "pre",
       "pHome": 0.7331,
-      "pDraw": 0.1636,
-      "pAway": 0.1032,
+      "pDraw": 0.1637,
+      "pAway": 0.1033,
       "predicted": "home",
       "xHome": 1,
       "xAway": 0
@@ -355,7 +355,7 @@
       "stage": "group-stage",
       "date": "2026-06-17T23:00Z",
       "status": "pre",
-      "pHome": 0.1387,
+      "pHome": 0.1388,
       "pDraw": 0.184,
       "pAway": 0.6772,
       "predicted": "away",
@@ -400,11 +400,11 @@
       "stage": "group-stage",
       "date": "2026-06-18T19:00Z",
       "status": "pre",
-      "pHome": 0.7446,
-      "pDraw": 0.1581,
-      "pAway": 0.0973,
+      "pHome": 0.7195,
+      "pDraw": 0.1672,
+      "pAway": 0.1133,
       "predicted": "home",
-      "xHome": 2,
+      "xHome": 1,
       "xAway": 0
     },
     "760440": {
@@ -415,11 +415,11 @@
       "stage": "group-stage",
       "date": "2026-06-18T22:00Z",
       "status": "pre",
-      "pHome": 0.7457,
-      "pDraw": 0.1595,
-      "pAway": 0.0948,
+      "pHome": 0.7169,
+      "pDraw": 0.1711,
+      "pAway": 0.112,
       "predicted": "home",
-      "xHome": 2,
+      "xHome": 1,
       "xAway": 0
     },
     "760441": {
@@ -432,7 +432,7 @@
       "status": "pre",
       "pHome": 0.4689,
       "pDraw": 0.2212,
-      "pAway": 0.3098,
+      "pAway": 0.3099,
       "predicted": "home",
       "xHome": 1,
       "xAway": 0
@@ -445,11 +445,11 @@
       "stage": "group-stage",
       "date": "2026-06-19T19:00Z",
       "status": "pre",
-      "pHome": 0.3206,
-      "pDraw": 0.231,
-      "pAway": 0.4483,
-      "predicted": "away",
-      "xHome": 0,
+      "pHome": 0.3919,
+      "pDraw": 0.2315,
+      "pAway": 0.3766,
+      "predicted": "home",
+      "xHome": 1,
       "xAway": 1
     },
     "760445": {
@@ -462,7 +462,7 @@
       "status": "pre",
       "pHome": 0.2505,
       "pDraw": 0.215,
-      "pAway": 0.5345,
+      "pAway": 0.5344,
       "predicted": "away",
       "xHome": 0,
       "xAway": 1
@@ -490,12 +490,12 @@
       "stage": "group-stage",
       "date": "2026-06-20T03:00Z",
       "status": "pre",
-      "pHome": 0.4451,
-      "pDraw": 0.2235,
-      "pAway": 0.3314,
+      "pHome": 0.5326,
+      "pDraw": 0.2168,
+      "pAway": 0.2506,
       "predicted": "home",
       "xHome": 1,
-      "xAway": 1
+      "xAway": 0
     },
     "760447": {
       "home": "Netherlands",
@@ -505,9 +505,9 @@
       "stage": "group-stage",
       "date": "2026-06-20T17:00Z",
       "status": "pre",
-      "pHome": 0.6851,
+      "pHome": 0.685,
       "pDraw": 0.1834,
-      "pAway": 0.1315,
+      "pAway": 0.1316,
       "predicted": "home",
       "xHome": 1,
       "xAway": 0
@@ -565,7 +565,7 @@
       "stage": "group-stage",
       "date": "2026-06-21T16:00Z",
       "status": "pre",
-      "pHome": 0.8938,
+      "pHome": 0.8937,
       "pDraw": 0.0902,
       "pAway": 0.016,
       "predicted": "home",
@@ -595,7 +595,7 @@
       "stage": "group-stage",
       "date": "2026-06-21T22:00Z",
       "status": "pre",
-      "pHome": 0.7868,
+      "pHome": 0.7867,
       "pDraw": 0.1419,
       "pAway": 0.0713,
       "predicted": "home",
@@ -671,8 +671,8 @@
       "date": "2026-06-23T03:00Z",
       "status": "pre",
       "pHome": 0.2696,
-      "pDraw": 0.2268,
-      "pAway": 0.5037,
+      "pDraw": 0.2267,
+      "pAway": 0.5036,
       "predicted": "away",
       "xHome": 0,
       "xAway": 1
@@ -685,9 +685,9 @@
       "stage": "group-stage",
       "date": "2026-06-23T17:00Z",
       "status": "pre",
-      "pHome": 0.6519,
+      "pHome": 0.6518,
       "pDraw": 0.1915,
-      "pAway": 0.1566,
+      "pAway": 0.1567,
       "predicted": "home",
       "xHome": 1,
       "xAway": 0
@@ -715,7 +715,7 @@
       "stage": "group-stage",
       "date": "2026-06-23T23:00Z",
       "status": "pre",
-      "pHome": 0.2443,
+      "pHome": 0.2444,
       "pDraw": 0.2187,
       "pAway": 0.537,
       "predicted": "away",
@@ -732,7 +732,7 @@
       "status": "pre",
       "pHome": 0.7412,
       "pDraw": 0.1604,
-      "pAway": 0.0983,
+      "pAway": 0.0984,
       "predicted": "home",
       "xHome": 1,
       "xAway": 0
@@ -745,9 +745,9 @@
       "stage": "group-stage",
       "date": "2026-06-24T19:00Z",
       "status": "pre",
-      "pHome": 0.458,
-      "pDraw": 0.2261,
-      "pAway": 0.3159,
+      "pHome": 0.4874,
+      "pDraw": 0.2226,
+      "pAway": 0.2901,
       "predicted": "home",
       "xHome": 1,
       "xAway": 0
@@ -760,9 +760,9 @@
       "stage": "group-stage",
       "date": "2026-06-24T19:00Z",
       "status": "pre",
-      "pHome": 0.4508,
-      "pDraw": 0.2277,
-      "pAway": 0.3215,
+      "pHome": 0.4812,
+      "pDraw": 0.2254,
+      "pAway": 0.2934,
       "predicted": "home",
       "xHome": 1,
       "xAway": 0
@@ -807,7 +807,7 @@
       "status": "pre",
       "pHome": 0.1631,
       "pDraw": 0.1871,
-      "pAway": 0.6498,
+      "pAway": 0.6497,
       "predicted": "away",
       "xHome": 0,
       "xAway": 1
@@ -820,9 +820,9 @@
       "stage": "group-stage",
       "date": "2026-06-25T01:00Z",
       "status": "pre",
-      "pHome": 0.1189,
+      "pHome": 0.119,
       "pDraw": 0.1721,
-      "pAway": 0.709,
+      "pAway": 0.7089,
       "predicted": "away",
       "xHome": 0,
       "xAway": 1
@@ -835,7 +835,7 @@
       "stage": "group-stage",
       "date": "2026-06-25T20:00Z",
       "status": "pre",
-      "pHome": 0.1776,
+      "pHome": 0.1777,
       "pDraw": 0.1983,
       "pAway": 0.624,
       "predicted": "away",
@@ -867,7 +867,7 @@
       "status": "pre",
       "pHome": 0.6629,
       "pDraw": 0.1911,
-      "pAway": 0.1459,
+      "pAway": 0.146,
       "predicted": "home",
       "xHome": 1,
       "xAway": 0
@@ -882,7 +882,7 @@
       "status": "pre",
       "pHome": 0.0946,
       "pDraw": 0.1662,
-      "pAway": 0.7393,
+      "pAway": 0.7392,
       "predicted": "away",
       "xHome": 0,
       "xAway": 1
@@ -895,11 +895,11 @@
       "stage": "group-stage",
       "date": "2026-06-26T02:00Z",
       "status": "pre",
-      "pHome": 0.4129,
-      "pDraw": 0.2292,
-      "pAway": 0.3579,
-      "predicted": "home",
-      "xHome": 1,
+      "pHome": 0.3245,
+      "pDraw": 0.2327,
+      "pAway": 0.4427,
+      "predicted": "away",
+      "xHome": 0,
       "xAway": 1
     },
     "760470": {
@@ -910,9 +910,9 @@
       "stage": "group-stage",
       "date": "2026-06-26T02:00Z",
       "status": "pre",
-      "pHome": 0.5389,
-      "pDraw": 0.2147,
-      "pAway": 0.2465,
+      "pHome": 0.4646,
+      "pDraw": 0.2233,
+      "pAway": 0.3121,
       "predicted": "home",
       "xHome": 1,
       "xAway": 0
@@ -940,9 +940,9 @@
       "stage": "group-stage",
       "date": "2026-06-26T19:00Z",
       "status": "pre",
-      "pHome": 0.5774,
+      "pHome": 0.5773,
       "pDraw": 0.2115,
-      "pAway": 0.2111,
+      "pAway": 0.2112,
       "predicted": "home",
       "xHome": 1,
       "xAway": 0
@@ -970,7 +970,7 @@
       "stage": "group-stage",
       "date": "2026-06-27T00:00Z",
       "status": "pre",
-      "pHome": 0.1401,
+      "pHome": 0.1402,
       "pDraw": 0.189,
       "pAway": 0.6709,
       "predicted": "away",
@@ -1002,7 +1002,7 @@
       "status": "pre",
       "pHome": 0.1464,
       "pDraw": 0.1854,
-      "pAway": 0.6682,
+      "pAway": 0.6681,
       "predicted": "away",
       "xHome": 0,
       "xAway": 1
@@ -1017,7 +1017,7 @@
       "status": "pre",
       "pHome": 0.8065,
       "pDraw": 0.1358,
-      "pAway": 0.0576,
+      "pAway": 0.0577,
       "predicted": "home",
       "xHome": 2,
       "xAway": 0
@@ -1106,8 +1106,8 @@
       "group": "Group H",
       "elo": 2210.1,
       "form": 0.94,
-      "winCup": 0.2967,
-      "reachFinal": 0.4465,
+      "winCup": 0.297,
+      "reachFinal": 0.4464,
       "reachR16": 0.9616,
       "qualify": 0.9971,
       "winGroup": 0.8092
@@ -1119,8 +1119,8 @@
       "group": "Group J",
       "elo": 2169.6,
       "form": 1.021,
-      "winCup": 0.246,
-      "reachFinal": 0.4052,
+      "winCup": 0.2458,
+      "reachFinal": 0.4053,
       "reachR16": 0.9435,
       "qualify": 0.9902,
       "winGroup": 0.84
@@ -1132,11 +1132,11 @@
       "group": "Group I",
       "elo": 2114.2,
       "form": 1.008,
-      "winCup": 0.1204,
-      "reachFinal": 0.2368,
-      "reachR16": 0.8508,
-      "qualify": 0.9715,
-      "winGroup": 0.6528
+      "winCup": 0.1202,
+      "reachFinal": 0.2382,
+      "reachR16": 0.8518,
+      "qualify": 0.9718,
+      "winGroup": 0.6529
     },
     {
       "teamId": "448",
@@ -1145,11 +1145,11 @@
       "group": "Group L",
       "elo": 2089.2,
       "form": 1.015,
-      "winCup": 0.0901,
-      "reachFinal": 0.192,
-      "reachR16": 0.831,
-      "qualify": 0.9883,
-      "winGroup": 0.6667
+      "winCup": 0.0908,
+      "reachFinal": 0.1923,
+      "reachR16": 0.8314,
+      "qualify": 0.988,
+      "winGroup": 0.6664
     },
     {
       "teamId": "205",
@@ -1158,11 +1158,11 @@
       "group": "Group C",
       "elo": 2043.5,
       "form": 1.011,
-      "winCup": 0.0403,
-      "reachFinal": 0.0971,
-      "reachR16": 0.7127,
-      "qualify": 0.9495,
-      "winGroup": 0.5279
+      "winCup": 0.0398,
+      "reachFinal": 0.0964,
+      "reachR16": 0.7122,
+      "qualify": 0.9505,
+      "winGroup": 0.528
     },
     {
       "teamId": "208",
@@ -1171,10 +1171,10 @@
       "group": "Group K",
       "elo": 2042.8,
       "form": 0.999,
-      "winCup": 0.0354,
-      "reachFinal": 0.0871,
-      "reachR16": 0.6752,
-      "qualify": 0.9347,
+      "winCup": 0.0353,
+      "reachFinal": 0.0863,
+      "reachR16": 0.6764,
+      "qualify": 0.9351,
       "winGroup": 0.4622
     },
     {
@@ -1184,10 +1184,10 @@
       "group": "Group K",
       "elo": 2036.4,
       "form": 0.996,
-      "winCup": 0.0312,
-      "reachFinal": 0.0801,
-      "reachR16": 0.6544,
-      "qualify": 0.9254,
+      "winCup": 0.0307,
+      "reachFinal": 0.0806,
+      "reachR16": 0.655,
+      "qualify": 0.9261,
       "winGroup": 0.4441
     },
     {
@@ -1198,10 +1198,10 @@
       "elo": 2008.2,
       "form": 1.017,
       "winCup": 0.0226,
-      "reachFinal": 0.0618,
-      "reachR16": 0.626,
-      "qualify": 0.9636,
-      "winGroup": 0.4918
+      "reachFinal": 0.062,
+      "reachR16": 0.6265,
+      "qualify": 0.9634,
+      "winGroup": 0.4917
     },
     {
       "teamId": "449",
@@ -1210,11 +1210,11 @@
       "group": "Group F",
       "elo": 2005.3,
       "form": 0.964,
-      "winCup": 0.0179,
-      "reachFinal": 0.0461,
-      "reachR16": 0.5711,
-      "qualify": 0.9427,
-      "winGroup": 0.4941
+      "winCup": 0.0181,
+      "reachFinal": 0.0465,
+      "reachR16": 0.5709,
+      "qualify": 0.9425,
+      "winGroup": 0.4942
     },
     {
       "teamId": "481",
@@ -1223,10 +1223,10 @@
       "group": "Group E",
       "elo": 1997.8,
       "form": 0.997,
-      "winCup": 0.0149,
-      "reachFinal": 0.045,
-      "reachR16": 0.577,
-      "qualify": 0.9548,
+      "winCup": 0.015,
+      "reachFinal": 0.0447,
+      "reachR16": 0.5766,
+      "qualify": 0.9553,
       "winGroup": 0.4309
     },
     {
@@ -1236,10 +1236,10 @@
       "group": "Group C",
       "elo": 1991.2,
       "form": 0.979,
-      "winCup": 0.0123,
+      "winCup": 0.0125,
       "reachFinal": 0.037,
-      "reachR16": 0.5054,
-      "qualify": 0.8958,
+      "reachR16": 0.5053,
+      "qualify": 0.8962,
       "winGroup": 0.33
     },
     {
@@ -1249,11 +1249,11 @@
       "group": "Group F",
       "elo": 1989.8,
       "form": 0.955,
-      "winCup": 0.0115,
-      "reachFinal": 0.0362,
-      "reachR16": 0.4988,
-      "qualify": 0.9229,
-      "winGroup": 0.4186
+      "winCup": 0.0117,
+      "reachFinal": 0.0365,
+      "reachR16": 0.5006,
+      "qualify": 0.9234,
+      "winGroup": 0.4183
     },
     {
       "teamId": "203",
@@ -1262,11 +1262,11 @@
       "group": "Group A",
       "elo": 1958.1,
       "form": 1.056,
-      "winCup": 0.0099,
-      "reachFinal": 0.0301,
-      "reachR16": 0.5462,
-      "qualify": 0.9895,
-      "winGroup": 0.5827
+      "winCup": 0.0095,
+      "reachFinal": 0.0293,
+      "reachR16": 0.5457,
+      "qualify": 0.9896,
+      "winGroup": 0.5826
     },
     {
       "teamId": "465",
@@ -1275,11 +1275,24 @@
       "group": "Group D",
       "elo": 1957.3,
       "form": 1.024,
-      "winCup": 0.0081,
-      "reachFinal": 0.0258,
-      "reachR16": 0.4456,
-      "qualify": 0.8216,
-      "winGroup": 0.3653
+      "winCup": 0.0075,
+      "reachFinal": 0.0241,
+      "reachR16": 0.4465,
+      "qualify": 0.8356,
+      "winGroup": 0.338
+    },
+    {
+      "teamId": "212",
+      "name": "Uruguay",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/uru.png",
+      "group": "Group H",
+      "elo": 1962.6,
+      "form": 0.998,
+      "winCup": 0.0067,
+      "reachFinal": 0.0222,
+      "reachR16": 0.4355,
+      "qualify": 0.9267,
+      "winGroup": 0.1777
     },
     {
       "teamId": "464",
@@ -1290,22 +1303,9 @@
       "form": 0.96,
       "winCup": 0.0066,
       "reachFinal": 0.0211,
-      "reachR16": 0.3925,
-      "qualify": 0.8093,
-      "winGroup": 0.2144
-    },
-    {
-      "teamId": "212",
-      "name": "Uruguay",
-      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/uru.png",
-      "group": "Group H",
-      "elo": 1962.6,
-      "form": 0.998,
-      "winCup": 0.0063,
-      "reachFinal": 0.0217,
-      "reachR16": 0.4343,
-      "qualify": 0.9264,
-      "winGroup": 0.1777
+      "reachR16": 0.3915,
+      "qualify": 0.8094,
+      "winGroup": 0.2142
     },
     {
       "teamId": "477",
@@ -1315,10 +1315,10 @@
       "elo": 1963.4,
       "form": 0.972,
       "winCup": 0.0063,
-      "reachFinal": 0.0216,
-      "reachR16": 0.4271,
-      "qualify": 0.9065,
-      "winGroup": 0.2513
+      "reachFinal": 0.0214,
+      "reachR16": 0.4266,
+      "qualify": 0.9064,
+      "winGroup": 0.2515
     },
     {
       "teamId": "475",
@@ -1327,11 +1327,11 @@
       "group": "Group B",
       "elo": 1937.1,
       "form": 1.005,
-      "winCup": 0.0047,
-      "reachFinal": 0.0204,
-      "reachR16": 0.5574,
-      "qualify": 0.9648,
-      "winGroup": 0.6276
+      "winCup": 0.0054,
+      "reachFinal": 0.0221,
+      "reachR16": 0.5623,
+      "qualify": 0.9639,
+      "winGroup": 0.6429
     },
     {
       "teamId": "459",
@@ -1340,9 +1340,9 @@
       "group": "Group G",
       "elo": 1925.7,
       "form": 1.049,
-      "winCup": 0.0047,
-      "reachFinal": 0.0204,
-      "reachR16": 0.497,
+      "winCup": 0.0046,
+      "reachFinal": 0.0196,
+      "reachR16": 0.4953,
       "qualify": 0.8941,
       "winGroup": 0.4623
     },
@@ -1353,24 +1353,24 @@
       "group": "Group A",
       "elo": 1904.5,
       "form": 1.015,
-      "winCup": 0.0032,
-      "reachFinal": 0.0124,
-      "reachR16": 0.4763,
-      "qualify": 0.9781,
-      "winGroup": 0.391
+      "winCup": 0.0028,
+      "reachFinal": 0.0121,
+      "reachR16": 0.4709,
+      "qualify": 0.9782,
+      "winGroup": 0.3911
     },
     {
-      "teamId": "206",
-      "name": "Canada",
-      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/can.png",
-      "group": "Group B",
-      "elo": 1889.2,
-      "form": 0.985,
-      "winCup": 0.0019,
-      "reachFinal": 0.0087,
-      "reachR16": 0.4022,
-      "qualify": 0.8696,
-      "winGroup": 0.2889
+      "teamId": "660",
+      "name": "United States",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+      "group": "Group D",
+      "elo": 1896.3,
+      "form": 1.022,
+      "winCup": 0.0024,
+      "reachFinal": 0.0117,
+      "reachR16": 0.4825,
+      "qualify": 0.9635,
+      "winGroup": 0.4558
     },
     {
       "teamId": "628",
@@ -1379,11 +1379,11 @@
       "group": "Group D",
       "elo": 1907.1,
       "form": 0.955,
-      "winCup": 0.0019,
+      "winCup": 0.002,
       "reachFinal": 0.0073,
-      "reachR16": 0.2926,
-      "qualify": 0.6736,
-      "winGroup": 0.2102
+      "reachR16": 0.2916,
+      "qualify": 0.6951,
+      "winGroup": 0.1837
     },
     {
       "teamId": "469",
@@ -1392,11 +1392,11 @@
       "group": "Group G",
       "elo": 1892.4,
       "form": 1.009,
-      "winCup": 0.0016,
-      "reachFinal": 0.0095,
-      "reachR16": 0.4029,
-      "qualify": 0.8359,
-      "winGroup": 0.3364
+      "winCup": 0.0017,
+      "reachFinal": 0.0094,
+      "reachR16": 0.3991,
+      "qualify": 0.8367,
+      "winGroup": 0.3362
     },
     {
       "teamId": "654",
@@ -1405,24 +1405,24 @@
       "group": "Group I",
       "elo": 1901.0,
       "form": 0.969,
-      "winCup": 0.0013,
+      "winCup": 0.0014,
       "reachFinal": 0.0059,
-      "reachR16": 0.2662,
-      "qualify": 0.663,
+      "reachR16": 0.2688,
+      "qualify": 0.6642,
       "winGroup": 0.1145
     },
     {
-      "teamId": "210",
-      "name": "Paraguay",
-      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/par.png",
-      "group": "Group D",
-      "elo": 1905.7,
-      "form": 1.049,
-      "winCup": 0.0011,
+      "teamId": "206",
+      "name": "Canada",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/can.png",
+      "group": "Group B",
+      "elo": 1867.9,
+      "form": 0.973,
+      "winCup": 0.0009,
       "reachFinal": 0.0042,
-      "reachR16": 0.1562,
-      "qualify": 0.3821,
-      "winGroup": 0.0466
+      "reachR16": 0.3552,
+      "qualify": 0.8447,
+      "winGroup": 0.2599
     },
     {
       "teamId": "624",
@@ -1432,10 +1432,10 @@
       "elo": 1870.4,
       "form": 0.98,
       "winCup": 0.0008,
-      "reachFinal": 0.0039,
-      "reachR16": 0.242,
-      "qualify": 0.6286,
-      "winGroup": 0.0698
+      "reachFinal": 0.0041,
+      "reachR16": 0.2438,
+      "qualify": 0.629,
+      "winGroup": 0.0699
     },
     {
       "teamId": "580",
@@ -1445,23 +1445,10 @@
       "elo": 1851.6,
       "form": 1.079,
       "winCup": 0.0007,
-      "reachFinal": 0.0039,
-      "reachR16": 0.263,
-      "qualify": 0.69,
-      "winGroup": 0.1283
-    },
-    {
-      "teamId": "660",
-      "name": "United States",
-      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
-      "group": "Group D",
-      "elo": 1844.4,
-      "form": 0.993,
-      "winCup": 0.0006,
-      "reachFinal": 0.004,
-      "reachR16": 0.3725,
-      "qualify": 0.9315,
-      "winGroup": 0.3779
+      "reachFinal": 0.0034,
+      "reachR16": 0.2592,
+      "qualify": 0.6917,
+      "winGroup": 0.1282
     },
     {
       "teamId": "474",
@@ -1470,11 +1457,11 @@
       "group": "Group J",
       "elo": 1868.3,
       "form": 0.971,
-      "winCup": 0.0005,
-      "reachFinal": 0.0028,
-      "reachR16": 0.2361,
-      "qualify": 0.6182,
-      "winGroup": 0.0679
+      "winCup": 0.0006,
+      "reachFinal": 0.003,
+      "reachR16": 0.2339,
+      "qualify": 0.6188,
+      "winGroup": 0.0678
     },
     {
       "teamId": "2659",
@@ -1485,9 +1472,35 @@
       "form": 0.995,
       "winCup": 0.0003,
       "reachFinal": 0.002,
-      "reachR16": 0.2107,
-      "qualify": 0.6829,
-      "winGroup": 0.0794
+      "reachR16": 0.2085,
+      "qualify": 0.6851,
+      "winGroup": 0.0795
+    },
+    {
+      "teamId": "210",
+      "name": "Paraguay",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/par.png",
+      "group": "Group D",
+      "elo": 1853.8,
+      "form": 0.971,
+      "winCup": 0.0001,
+      "reachFinal": 0.0012,
+      "reachR16": 0.0889,
+      "qualify": 0.2827,
+      "winGroup": 0.0225
+    },
+    {
+      "teamId": "4789",
+      "name": "Ivory Coast",
+      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png",
+      "group": "Group E",
+      "elo": 1795.6,
+      "form": 1.0,
+      "winCup": 0.0001,
+      "reachFinal": 0.0008,
+      "reachR16": 0.1396,
+      "qualify": 0.6295,
+      "winGroup": 0.0722
     },
     {
       "teamId": "2917",
@@ -1497,9 +1510,9 @@
       "elo": 1785.7,
       "form": 0.927,
       "winCup": 0.0001,
-      "reachFinal": 0.0003,
-      "reachR16": 0.0757,
-      "qualify": 0.3561,
+      "reachFinal": 0.0001,
+      "reachR16": 0.0774,
+      "qualify": 0.3569,
       "winGroup": 0.0222
     },
     {
@@ -1510,10 +1523,10 @@
       "elo": 1831.1,
       "form": 0.954,
       "winCup": 0.0001,
-      "reachFinal": 0.0011,
-      "reachR16": 0.1398,
-      "qualify": 0.4903,
-      "winGroup": 0.0672
+      "reachFinal": 0.0013,
+      "reachR16": 0.1387,
+      "qualify": 0.4931,
+      "winGroup": 0.0673
     },
     {
       "teamId": "450",
@@ -1524,9 +1537,9 @@
       "form": 0.982,
       "winCup": 0.0,
       "reachFinal": 0.0003,
-      "reachR16": 0.0751,
-      "qualify": 0.5175,
-      "winGroup": 0.0225
+      "reachR16": 0.0747,
+      "qualify": 0.5186,
+      "winGroup": 0.0226
     },
     {
       "teamId": "467",
@@ -1537,8 +1550,8 @@
       "form": 0.941,
       "winCup": 0.0,
       "reachFinal": 0.0,
-      "reachR16": 0.0089,
-      "qualify": 0.1885,
+      "reachR16": 0.0086,
+      "qualify": 0.1893,
       "winGroup": 0.0039
     },
     {
@@ -1546,13 +1559,13 @@
       "name": "Bosnia-Herzegovina",
       "logo": "https://a.espncdn.com/i/teamlogos/countries/500/bih.png",
       "group": "Group B",
-      "elo": 1646.0,
-      "form": 1.014,
+      "elo": 1667.3,
+      "form": 1.019,
       "winCup": 0.0,
       "reachFinal": 0.0,
-      "reachR16": 0.0415,
-      "qualify": 0.5542,
-      "winGroup": 0.0575
+      "reachR16": 0.0558,
+      "qualify": 0.5897,
+      "winGroup": 0.0707
     },
     {
       "teamId": "4398",
@@ -1563,9 +1576,9 @@
       "form": 0.994,
       "winCup": 0.0,
       "reachFinal": 0.0,
-      "reachR16": 0.0118,
-      "qualify": 0.2816,
-      "winGroup": 0.0261
+      "reachR16": 0.0121,
+      "qualify": 0.2771,
+      "winGroup": 0.0266
     },
     {
       "teamId": "2654",
@@ -1576,22 +1589,9 @@
       "form": 0.947,
       "winCup": 0.0,
       "reachFinal": 0.0001,
-      "reachR16": 0.0164,
-      "qualify": 0.1832,
+      "reachR16": 0.0158,
+      "qualify": 0.1834,
       "winGroup": 0.0138
-    },
-    {
-      "teamId": "4789",
-      "name": "Ivory Coast",
-      "logo": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png",
-      "group": "Group E",
-      "elo": 1795.6,
-      "form": 1.0,
-      "winCup": 0.0,
-      "reachFinal": 0.0006,
-      "reachR16": 0.1412,
-      "qualify": 0.6271,
-      "winGroup": 0.0721
     },
     {
       "teamId": "11678",
@@ -1602,8 +1602,8 @@
       "form": 0.974,
       "winCup": 0.0,
       "reachFinal": 0.0,
-      "reachR16": 0.0039,
-      "qualify": 0.1231,
+      "reachR16": 0.0042,
+      "qualify": 0.124,
       "winGroup": 0.0053
     },
     {
@@ -1614,10 +1614,10 @@
       "elo": 1759.4,
       "form": 0.964,
       "winCup": 0.0,
-      "reachFinal": 0.0002,
-      "reachR16": 0.0794,
-      "qualify": 0.4798,
-      "winGroup": 0.0582
+      "reachFinal": 0.0003,
+      "reachR16": 0.0783,
+      "qualify": 0.4803,
+      "winGroup": 0.0583
     },
     {
       "teamId": "659",
@@ -1629,7 +1629,7 @@
       "winCup": 0.0,
       "reachFinal": 0.0,
       "reachR16": 0.0301,
-      "qualify": 0.311,
+      "qualify": 0.3121,
       "winGroup": 0.0291
     },
     {
@@ -1641,9 +1641,9 @@
       "form": 0.988,
       "winCup": 0.0,
       "reachFinal": 0.0008,
-      "reachR16": 0.1712,
+      "reachR16": 0.1694,
       "qualify": 0.63,
-      "winGroup": 0.1423
+      "winGroup": 0.1422
     },
     {
       "teamId": "2666",
@@ -1654,9 +1654,9 @@
       "form": 0.88,
       "winCup": 0.0,
       "reachFinal": 0.0001,
-      "reachR16": 0.052,
-      "qualify": 0.3711,
-      "winGroup": 0.059
+      "reachR16": 0.0514,
+      "qualify": 0.3729,
+      "winGroup": 0.0592
     },
     {
       "teamId": "655",
@@ -1667,9 +1667,9 @@
       "form": 1.006,
       "winCup": 0.0,
       "reachFinal": 0.0,
-      "reachR16": 0.0321,
-      "qualify": 0.3721,
-      "winGroup": 0.0096
+      "reachR16": 0.0322,
+      "qualify": 0.3738,
+      "winGroup": 0.0097
     },
     {
       "teamId": "2597",
@@ -1680,9 +1680,9 @@
       "form": 0.995,
       "winCup": 0.0,
       "reachFinal": 0.0,
-      "reachR16": 0.0095,
-      "qualify": 0.1966,
-      "winGroup": 0.0035
+      "reachR16": 0.0097,
+      "qualify": 0.1977,
+      "winGroup": 0.0034
     },
     {
       "teamId": "4375",
@@ -1693,8 +1693,8 @@
       "form": 0.983,
       "winCup": 0.0,
       "reachFinal": 0.0,
-      "reachR16": 0.0356,
-      "qualify": 0.2256,
+      "reachR16": 0.0355,
+      "qualify": 0.2266,
       "winGroup": 0.0184
     },
     {
@@ -1706,9 +1706,9 @@
       "form": 0.984,
       "winCup": 0.0,
       "reachFinal": 0.0001,
-      "reachR16": 0.044,
-      "qualify": 0.2961,
-      "winGroup": 0.0265
+      "reachR16": 0.0452,
+      "qualify": 0.2964,
+      "winGroup": 0.0266
     },
     {
       "teamId": "4469",
@@ -1719,8 +1719,8 @@
       "form": 0.948,
       "winCup": 0.0,
       "reachFinal": 0.0,
-      "reachR16": 0.0035,
-      "qualify": 0.0937,
+      "reachR16": 0.0037,
+      "qualify": 0.0938,
       "winGroup": 0.0026
     }
   ],
