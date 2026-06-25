@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T10:36:27+00:00",
+  "generatedAt": "2026-06-25T21:24:33+00:00",
   "meta": {
     "model": "Elo + Dixon-Coles Poisson + TimesFM form (hybrid)",
     "timesfmUsed": true,
@@ -934,7 +934,7 @@
       "awayId": "4789",
       "stage": "group-stage",
       "date": "2026-06-25T20:00Z",
-      "status": "pre",
+      "status": "in",
       "pHome": 0.1582,
       "pDraw": 0.196,
       "pAway": 0.6458,
@@ -949,7 +949,7 @@
       "awayId": "481",
       "stage": "group-stage",
       "date": "2026-06-25T20:00Z",
-      "status": "pre",
+      "status": "in",
       "pHome": 0.2701,
       "pDraw": 0.2213,
       "pAway": 0.5086,
