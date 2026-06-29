@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T20:53:40+00:00",
+  "generatedAt": "2026-06-29T06:31:48+00:00",
   "meta": {
     "model": "Elo + Dixon-Coles Poisson + TimesFM form (hybrid)",
     "timesfmUsed": true,
@@ -1240,13 +1240,15 @@
       "awayId": "206",
       "stage": "round-of-32",
       "date": "2026-06-28T19:00Z",
-      "status": "in",
+      "status": "post",
       "pHome": 0.2361,
       "pDraw": 0.2171,
       "pAway": 0.5468,
       "predicted": "away",
       "xHome": 0,
-      "xAway": 1
+      "xAway": 1,
+      "result": "away",
+      "score": "0-1"
     },
     "760487": {
       "home": "Brazil",
@@ -2101,10 +2103,10 @@
     }
   ],
   "accuracy": {
-    "n": 72,
-    "hitRate": 0.5972222222222222,
-    "rps": 0.16927499999999998,
-    "brier": 0.5490666666666668,
+    "n": 73,
+    "hitRate": 0.6027397260273972,
+    "rps": 0.16874520547945204,
+    "brier": 0.5457684931506851,
     "history": [
       {
         "date": "2026-06-11T19:00Z",
@@ -2897,6 +2899,17 @@
         "correct": true,
         "rps": 0.0045,
         "brier": 0.0153
+      },
+      {
+        "date": "2026-06-28T19:00Z",
+        "matchId": "760486",
+        "home": "South Africa",
+        "away": "Canada",
+        "predicted": "away",
+        "actual": "away",
+        "correct": true,
+        "rps": 0.1306,
+        "brier": 0.3083
       }
     ]
   }
