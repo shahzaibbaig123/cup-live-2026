@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T12:25:52+00:00",
+  "generatedAt": "2026-06-29T21:19:03+00:00",
   "meta": {
     "model": "Elo + Dixon-Coles Poisson + TimesFM form (hybrid)",
     "timesfmUsed": true,
@@ -1257,13 +1257,15 @@
       "awayId": "627",
       "stage": "round-of-32",
       "date": "2026-06-29T17:00Z",
-      "status": "pre",
+      "status": "post",
       "pHome": 0.5172,
       "pDraw": 0.2199,
       "pAway": 0.2629,
       "predicted": "home",
       "xHome": 1,
-      "xAway": 0
+      "xAway": 0,
+      "result": "home",
+      "score": "2-1"
     },
     "760489": {
       "home": "Germany",
@@ -1272,7 +1274,7 @@
       "awayId": "210",
       "stage": "round-of-32",
       "date": "2026-06-29T20:30Z",
-      "status": "pre",
+      "status": "in",
       "pHome": 0.4997,
       "pDraw": 0.2241,
       "pAway": 0.2762,
@@ -2103,10 +2105,10 @@
     }
   ],
   "accuracy": {
-    "n": 73,
-    "hitRate": 0.6027397260273972,
-    "rps": 0.16874520547945204,
-    "brier": 0.5457684931506851,
+    "n": 74,
+    "hitRate": 0.6081081081081081,
+    "rps": 0.16850675675675672,
+    "brier": 0.5431310810810812,
     "history": [
       {
         "date": "2026-06-11T19:00Z",
@@ -2910,6 +2912,17 @@
         "correct": true,
         "rps": 0.1306,
         "brier": 0.3083
+      },
+      {
+        "date": "2026-06-29T17:00Z",
+        "matchId": "760487",
+        "home": "Brazil",
+        "away": "Japan",
+        "predicted": "home",
+        "actual": "home",
+        "correct": true,
+        "rps": 0.1511,
+        "brier": 0.3506
       }
     ]
   }
