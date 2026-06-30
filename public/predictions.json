@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T10:50:48+00:00",
+  "generatedAt": "2026-06-30T21:24:14+00:00",
   "meta": {
     "model": "Elo + Dixon-Coles Poisson + TimesFM form (hybrid)",
     "timesfmUsed": true,
@@ -1308,13 +1308,15 @@
       "awayId": "464",
       "stage": "round-of-32",
       "date": "2026-06-30T17:00Z",
-      "status": "pre",
+      "status": "post",
       "pHome": 0.2553,
       "pDraw": 0.2298,
       "pAway": 0.5149,
       "predicted": "away",
       "xHome": 0,
-      "xAway": 1
+      "xAway": 1,
+      "result": "away",
+      "score": "1-2"
     },
     "760492": {
       "home": "France",
@@ -1323,7 +1325,7 @@
       "awayId": "466",
       "stage": "round-of-32",
       "date": "2026-06-30T21:00Z",
-      "status": "pre",
+      "status": "in",
       "pHome": 0.8501,
       "pDraw": 0.1107,
       "pAway": 0.0393,
@@ -1495,6 +1497,21 @@
       "predicted": "away",
       "xHome": 0,
       "xAway": 1
+    },
+    "760504": {
+      "home": "Brazil",
+      "away": "Norway",
+      "homeId": "205",
+      "awayId": "464",
+      "stage": "round-of-16",
+      "date": "2026-07-05T20:00Z",
+      "status": "pre",
+      "pHome": 0.5716,
+      "pDraw": 0.2134,
+      "pAway": 0.215,
+      "predicted": "home",
+      "xHome": 1,
+      "xAway": 0
     }
   },
   "titleOdds": [
@@ -2124,10 +2141,10 @@
     }
   ],
   "accuracy": {
-    "n": 76,
-    "hitRate": 0.5921052631578947,
-    "rps": 0.16816052631578945,
-    "brier": 0.5526907894736843,
+    "n": 77,
+    "hitRate": 0.5974025974025974,
+    "rps": 0.1679285714285714,
+    "brier": 0.5501012987012988,
     "history": [
       {
         "date": "2026-06-11T19:00Z",
@@ -2964,6 +2981,17 @@
         "correct": false,
         "rps": 0.1477,
         "brier": 0.8848
+      },
+      {
+        "date": "2026-06-30T17:00Z",
+        "matchId": "760490",
+        "home": "Ivory Coast",
+        "away": "Norway",
+        "predicted": "away",
+        "actual": "away",
+        "correct": true,
+        "rps": 0.1503,
+        "brier": 0.3533
       }
     ]
   }
