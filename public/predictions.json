@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T16:19:34+00:00",
+  "generatedAt": "2026-07-01T21:20:58+00:00",
   "meta": {
     "model": "Elo + Dixon-Coles Poisson + TimesFM form (hybrid)",
     "timesfmUsed": true,
@@ -1359,13 +1359,15 @@
       "awayId": "2850",
       "stage": "round-of-32",
       "date": "2026-07-01T16:00Z",
-      "status": "in",
+      "status": "post",
       "pHome": 0.7362,
       "pDraw": 0.1638,
       "pAway": 0.1,
       "predicted": "home",
       "xHome": 1,
-      "xAway": 0
+      "xAway": 0,
+      "result": "home",
+      "score": "2-1"
     },
     "760493": {
       "home": "Belgium",
@@ -1374,7 +1376,7 @@
       "awayId": "654",
       "stage": "round-of-32",
       "date": "2026-07-01T20:00Z",
-      "status": "pre",
+      "status": "in",
       "pHome": 0.458,
       "pDraw": 0.2255,
       "pAway": 0.3165,
@@ -1531,6 +1533,21 @@
       "predicted": "home",
       "xHome": 1,
       "xAway": 0
+    },
+    "760505": {
+      "home": "Mexico",
+      "away": "England",
+      "homeId": "203",
+      "awayId": "448",
+      "stage": "round-of-16",
+      "date": "2026-07-06T00:00Z",
+      "status": "pre",
+      "pHome": 0.3176,
+      "pDraw": 0.2258,
+      "pAway": 0.4566,
+      "predicted": "away",
+      "xHome": 0,
+      "xAway": 1
     }
   },
   "titleOdds": [
@@ -2160,10 +2177,10 @@
     }
   ],
   "accuracy": {
-    "n": 79,
-    "hitRate": 0.6075949367088608,
-    "rps": 0.16661012658227847,
-    "brier": 0.5428531645569621,
+    "n": 80,
+    "hitRate": 0.6125,
+    "rps": 0.16502499999999998,
+    "brier": 0.5373975000000001,
     "history": [
       {
         "date": "2026-06-11T19:00Z",
@@ -3033,6 +3050,17 @@
         "correct": true,
         "rps": 0.2197,
         "brier": 0.4913
+      },
+      {
+        "date": "2026-07-01T16:00Z",
+        "matchId": "760495",
+        "home": "England",
+        "away": "Congo DR",
+        "predicted": "home",
+        "actual": "home",
+        "correct": true,
+        "rps": 0.0398,
+        "brier": 0.1064
       }
     ]
   }
