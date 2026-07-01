@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T21:24:14+00:00",
+  "generatedAt": "2026-07-01T06:19:42+00:00",
   "meta": {
     "model": "Elo + Dixon-Coles Poisson + TimesFM form (hybrid)",
     "timesfmUsed": true,
@@ -1325,13 +1325,15 @@
       "awayId": "466",
       "stage": "round-of-32",
       "date": "2026-06-30T21:00Z",
-      "status": "in",
+      "status": "post",
       "pHome": 0.8501,
       "pDraw": 0.1107,
       "pAway": 0.0393,
       "predicted": "home",
       "xHome": 2,
-      "xAway": 0
+      "xAway": 0,
+      "result": "home",
+      "score": "3-0"
     },
     "760491": {
       "home": "Mexico",
@@ -1339,14 +1341,16 @@
       "homeId": "203",
       "awayId": "209",
       "stage": "round-of-32",
-      "date": "2026-07-01T01:00Z",
-      "status": "pre",
+      "date": "2026-07-01T02:00Z",
+      "status": "post",
       "pHome": 0.4314,
       "pDraw": 0.2278,
       "pAway": 0.3408,
       "predicted": "home",
       "xHome": 1,
-      "xAway": 1
+      "xAway": 1,
+      "result": "home",
+      "score": "2-0"
     },
     "760495": {
       "home": "England",
@@ -1497,6 +1501,21 @@
       "predicted": "away",
       "xHome": 0,
       "xAway": 1
+    },
+    "760503": {
+      "home": "Paraguay",
+      "away": "France",
+      "homeId": "210",
+      "awayId": "478",
+      "stage": "round-of-16",
+      "date": "2026-07-04T21:00Z",
+      "status": "pre",
+      "pHome": 0.0968,
+      "pDraw": 0.1561,
+      "pAway": 0.7471,
+      "predicted": "away",
+      "xHome": 0,
+      "xAway": 2
     },
     "760504": {
       "home": "Brazil",
@@ -2141,10 +2160,10 @@
     }
   ],
   "accuracy": {
-    "n": 77,
-    "hitRate": 0.5974025974025974,
-    "rps": 0.1679285714285714,
-    "brier": 0.5501012987012988,
+    "n": 79,
+    "hitRate": 0.6075949367088608,
+    "rps": 0.16661012658227847,
+    "brier": 0.5428531645569621,
     "history": [
       {
         "date": "2026-06-11T19:00Z",
@@ -2992,6 +3011,28 @@
         "correct": true,
         "rps": 0.1503,
         "brier": 0.3533
+      },
+      {
+        "date": "2026-06-30T21:00Z",
+        "matchId": "760492",
+        "home": "France",
+        "away": "Sweden",
+        "predicted": "home",
+        "actual": "home",
+        "correct": true,
+        "rps": 0.012,
+        "brier": 0.0363
+      },
+      {
+        "date": "2026-07-01T02:00Z",
+        "matchId": "760491",
+        "home": "Mexico",
+        "away": "Ecuador",
+        "predicted": "home",
+        "actual": "home",
+        "correct": true,
+        "rps": 0.2197,
+        "brier": 0.4913
       }
     ]
   }
