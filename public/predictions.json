@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T21:20:58+00:00",
+  "generatedAt": "2026-07-02T05:52:11+00:00",
   "meta": {
     "model": "Elo + Dixon-Coles Poisson + TimesFM form (hybrid)",
     "timesfmUsed": true,
@@ -1376,13 +1376,15 @@
       "awayId": "654",
       "stage": "round-of-32",
       "date": "2026-07-01T20:00Z",
-      "status": "in",
+      "status": "post",
       "pHome": 0.458,
       "pDraw": 0.2255,
       "pAway": 0.3165,
       "predicted": "home",
       "xHome": 1,
-      "xAway": 0
+      "xAway": 0,
+      "result": "home",
+      "score": "3-2"
     },
     "760494": {
       "home": "United States",
@@ -1391,13 +1393,15 @@
       "awayId": "452",
       "stage": "round-of-32",
       "date": "2026-07-02T00:00Z",
-      "status": "pre",
+      "status": "post",
       "pHome": 0.6303,
       "pDraw": 0.1997,
       "pAway": 0.1701,
       "predicted": "home",
       "xHome": 1,
-      "xAway": 0
+      "xAway": 0,
+      "result": "home",
+      "score": "2-0"
     },
     "760497": {
       "home": "Spain",
@@ -1545,6 +1549,21 @@
       "pHome": 0.3176,
       "pDraw": 0.2258,
       "pAway": 0.4566,
+      "predicted": "away",
+      "xHome": 0,
+      "xAway": 1
+    },
+    "760507": {
+      "home": "United States",
+      "away": "Belgium",
+      "homeId": "660",
+      "awayId": "459",
+      "stage": "round-of-16",
+      "date": "2026-07-07T00:00Z",
+      "status": "pre",
+      "pHome": 0.3107,
+      "pDraw": 0.2271,
+      "pAway": 0.4623,
       "predicted": "away",
       "xHome": 0,
       "xAway": 1
@@ -2177,10 +2196,10 @@
     }
   ],
   "accuracy": {
-    "n": 80,
-    "hitRate": 0.6125,
-    "rps": 0.16502499999999998,
-    "brier": 0.5373975000000001,
+    "n": 82,
+    "hitRate": 0.6219512195121951,
+    "rps": 0.16441219512195118,
+    "brier": 0.5322207317073171,
     "history": [
       {
         "date": "2026-06-11T19:00Z",
@@ -3061,6 +3080,28 @@
         "correct": true,
         "rps": 0.0398,
         "brier": 0.1064
+      },
+      {
+        "date": "2026-07-01T20:00Z",
+        "matchId": "760493",
+        "home": "Belgium",
+        "away": "Senegal",
+        "predicted": "home",
+        "actual": "home",
+        "correct": true,
+        "rps": 0.197,
+        "brier": 0.4448
+      },
+      {
+        "date": "2026-07-02T00:00Z",
+        "matchId": "760494",
+        "home": "United States",
+        "away": "Bosnia-Herzegovina",
+        "predicted": "home",
+        "actual": "home",
+        "correct": true,
+        "rps": 0.0828,
+        "brier": 0.2055
       }
     ]
   }
