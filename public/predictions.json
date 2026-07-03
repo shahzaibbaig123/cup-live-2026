@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-03T05:46:33+00:00",
+  "generatedAt": "2026-07-03T20:55:13+00:00",
   "meta": {
     "model": "Elo + Dixon-Coles Poisson + TimesFM form (hybrid)",
     "timesfmUsed": true,
@@ -1461,7 +1461,7 @@
       "awayId": "2620",
       "stage": "round-of-32",
       "date": "2026-07-03T18:00Z",
-      "status": "pre",
+      "status": "in",
       "pHome": 0.4522,
       "pDraw": 0.2286,
       "pAway": 0.3192,
