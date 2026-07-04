@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-03T20:55:13+00:00",
+  "generatedAt": "2026-07-04T05:39:36+00:00",
   "meta": {
     "model": "Elo + Dixon-Coles Poisson + TimesFM form (hybrid)",
     "timesfmUsed": true,
@@ -1461,13 +1461,15 @@
       "awayId": "2620",
       "stage": "round-of-32",
       "date": "2026-07-03T18:00Z",
-      "status": "in",
+      "status": "post",
       "pHome": 0.4522,
       "pDraw": 0.2286,
       "pAway": 0.3192,
       "predicted": "home",
       "xHome": 1,
-      "xAway": 0
+      "xAway": 0,
+      "result": "draw",
+      "score": "1-1"
     },
     "760500": {
       "home": "Argentina",
@@ -1476,13 +1478,15 @@
       "awayId": "2597",
       "stage": "round-of-32",
       "date": "2026-07-03T22:00Z",
-      "status": "pre",
+      "status": "post",
       "pHome": 0.9163,
       "pDraw": 0.0711,
       "pAway": 0.0126,
       "predicted": "home",
       "xHome": 2,
-      "xAway": 0
+      "xAway": 0,
+      "result": "home",
+      "score": "3-2"
     },
     "760501": {
       "home": "Colombia",
@@ -1491,13 +1495,15 @@
       "awayId": "4469",
       "stage": "round-of-32",
       "date": "2026-07-04T01:30Z",
-      "status": "pre",
+      "status": "post",
       "pHome": 0.8575,
       "pDraw": 0.1085,
       "pAway": 0.0341,
       "predicted": "home",
       "xHome": 2,
-      "xAway": 0
+      "xAway": 0,
+      "result": "home",
+      "score": "1-0"
     },
     "760502": {
       "home": "Canada",
@@ -1585,6 +1591,36 @@
       "pHome": 0.3283,
       "pDraw": 0.2285,
       "pAway": 0.4432,
+      "predicted": "away",
+      "xHome": 0,
+      "xAway": 1
+    },
+    "760509": {
+      "home": "Argentina",
+      "away": "Egypt",
+      "homeId": "202",
+      "awayId": "2620",
+      "stage": "round-of-16",
+      "date": "2026-07-07T16:00Z",
+      "status": "pre",
+      "pHome": 0.8178,
+      "pDraw": 0.1267,
+      "pAway": 0.0556,
+      "predicted": "home",
+      "xHome": 2,
+      "xAway": 0
+    },
+    "760508": {
+      "home": "Switzerland",
+      "away": "Colombia",
+      "homeId": "475",
+      "awayId": "208",
+      "stage": "round-of-16",
+      "date": "2026-07-07T20:00Z",
+      "status": "pre",
+      "pHome": 0.3033,
+      "pDraw": 0.2239,
+      "pAway": 0.4728,
       "predicted": "away",
       "xHome": 0,
       "xAway": 1
@@ -2217,10 +2253,10 @@
     }
   ],
   "accuracy": {
-    "n": 85,
-    "hitRate": 0.6352941176470588,
-    "rps": 0.16279647058823526,
-    "brier": 0.5232576470588236,
+    "n": 88,
+    "hitRate": 0.6363636363636364,
+    "rps": 0.15914999999999999,
+    "brier": 0.5161784090909092,
     "history": [
       {
         "date": "2026-06-11T19:00Z",
@@ -3156,6 +3192,39 @@
         "correct": true,
         "rps": 0.1566,
         "brier": 0.3622
+      },
+      {
+        "date": "2026-07-03T18:00Z",
+        "matchId": "760499",
+        "home": "Australia",
+        "away": "Egypt",
+        "predicted": "home",
+        "actual": "draw",
+        "correct": false,
+        "rps": 0.1532,
+        "brier": 0.9014
+      },
+      {
+        "date": "2026-07-03T22:00Z",
+        "matchId": "760500",
+        "home": "Argentina",
+        "away": "Cape Verde",
+        "predicted": "home",
+        "actual": "home",
+        "correct": true,
+        "rps": 0.0036,
+        "brier": 0.0122
+      },
+      {
+        "date": "2026-07-04T01:30Z",
+        "matchId": "760501",
+        "home": "Colombia",
+        "away": "Ghana",
+        "predicted": "home",
+        "actual": "home",
+        "correct": true,
+        "rps": 0.0107,
+        "brier": 0.0332
       }
     ]
   }
