@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-04T10:01:58+00:00",
+  "generatedAt": "2026-07-04T20:45:07+00:00",
   "meta": {
     "model": "Elo + Dixon-Coles Poisson + TimesFM form (hybrid)",
     "timesfmUsed": true,
@@ -1512,13 +1512,15 @@
       "awayId": "2869",
       "stage": "round-of-16",
       "date": "2026-07-04T17:00Z",
-      "status": "pre",
+      "status": "post",
       "pHome": 0.213,
       "pDraw": 0.2124,
       "pAway": 0.5746,
       "predicted": "away",
       "xHome": 0,
-      "xAway": 1
+      "xAway": 1,
+      "result": "away",
+      "score": "0-3"
     },
     "760503": {
       "home": "Paraguay",
@@ -2253,10 +2255,10 @@
     }
   ],
   "accuracy": {
-    "n": 88,
-    "hitRate": 0.6363636363636364,
-    "rps": 0.15914999999999999,
-    "brier": 0.5161784090909092,
+    "n": 89,
+    "hitRate": 0.6404494382022472,
+    "rps": 0.15863370786516853,
+    "brier": 0.5134280898876405,
     "history": [
       {
         "date": "2026-06-11T19:00Z",
@@ -3225,6 +3227,17 @@
         "correct": true,
         "rps": 0.0107,
         "brier": 0.0332
+      },
+      {
+        "date": "2026-07-04T17:00Z",
+        "matchId": "760502",
+        "home": "Canada",
+        "away": "Morocco",
+        "predicted": "away",
+        "actual": "away",
+        "correct": true,
+        "rps": 0.1132,
+        "brier": 0.2714
       }
     ]
   }
