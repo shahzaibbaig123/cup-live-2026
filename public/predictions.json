@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-04T20:45:07+00:00",
+  "generatedAt": "2026-07-05T05:57:47+00:00",
   "meta": {
     "model": "Elo + Dixon-Coles Poisson + TimesFM form (hybrid)",
     "timesfmUsed": true,
@@ -1529,13 +1529,15 @@
       "awayId": "478",
       "stage": "round-of-16",
       "date": "2026-07-04T21:00Z",
-      "status": "pre",
+      "status": "post",
       "pHome": 0.0886,
       "pDraw": 0.1473,
       "pAway": 0.7641,
       "predicted": "away",
       "xHome": 0,
-      "xAway": 2
+      "xAway": 2,
+      "result": "away",
+      "score": "0-1"
     },
     "760504": {
       "home": "Brazil",
@@ -1626,6 +1628,21 @@
       "predicted": "away",
       "xHome": 0,
       "xAway": 1
+    },
+    "760510": {
+      "home": "France",
+      "away": "Morocco",
+      "homeId": "478",
+      "awayId": "2869",
+      "stage": "quarterfinals",
+      "date": "2026-07-09T20:00Z",
+      "status": "pre",
+      "pHome": 0.6181,
+      "pDraw": 0.1961,
+      "pAway": 0.1858,
+      "predicted": "home",
+      "xHome": 1,
+      "xAway": 0
     }
   },
   "titleOdds": [
@@ -2255,10 +2272,10 @@
     }
   ],
   "accuracy": {
-    "n": 89,
-    "hitRate": 0.6404494382022472,
-    "rps": 0.15863370786516853,
-    "brier": 0.5134280898876405,
+    "n": 90,
+    "hitRate": 0.6444444444444445,
+    "rps": 0.15722333333333333,
+    "brier": 0.5086700000000002,
     "history": [
       {
         "date": "2026-06-11T19:00Z",
@@ -3238,6 +3255,17 @@
         "correct": true,
         "rps": 0.1132,
         "brier": 0.2714
+      },
+      {
+        "date": "2026-07-04T21:00Z",
+        "matchId": "760503",
+        "home": "Paraguay",
+        "away": "France",
+        "predicted": "away",
+        "actual": "away",
+        "correct": true,
+        "rps": 0.0317,
+        "brier": 0.0852
       }
     ]
   }
