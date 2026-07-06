@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-05T20:49:44+00:00",
+  "generatedAt": "2026-07-06T06:21:18+00:00",
   "meta": {
     "model": "Elo + Dixon-Coles Poisson + TimesFM form (hybrid)",
     "timesfmUsed": true,
@@ -1546,13 +1546,15 @@
       "awayId": "464",
       "stage": "round-of-16",
       "date": "2026-07-05T20:00Z",
-      "status": "in",
+      "status": "post",
       "pHome": 0.5404,
       "pDraw": 0.2162,
       "pAway": 0.2433,
       "predicted": "home",
       "xHome": 1,
-      "xAway": 0
+      "xAway": 0,
+      "result": "away",
+      "score": "1-2"
     },
     "760505": {
       "home": "Mexico",
@@ -1560,14 +1562,16 @@
       "homeId": "203",
       "awayId": "448",
       "stage": "round-of-16",
-      "date": "2026-07-06T00:00Z",
-      "status": "pre",
+      "date": "2026-07-06T01:00Z",
+      "status": "post",
       "pHome": 0.3085,
       "pDraw": 0.2255,
       "pAway": 0.466,
       "predicted": "away",
       "xHome": 0,
-      "xAway": 1
+      "xAway": 1,
+      "result": "away",
+      "score": "2-3"
     },
     "760506": {
       "home": "Portugal",
@@ -1643,6 +1647,21 @@
       "predicted": "home",
       "xHome": 1,
       "xAway": 0
+    },
+    "760512": {
+      "home": "Norway",
+      "away": "England",
+      "homeId": "464",
+      "awayId": "448",
+      "stage": "quarterfinals",
+      "date": "2026-07-11T21:00Z",
+      "status": "pre",
+      "pHome": 0.2436,
+      "pDraw": 0.2219,
+      "pAway": 0.5345,
+      "predicted": "away",
+      "xHome": 0,
+      "xAway": 1
     }
   },
   "titleOdds": [
@@ -2272,10 +2291,10 @@
     }
   ],
   "accuracy": {
-    "n": 90,
-    "hitRate": 0.6444444444444445,
-    "rps": 0.15722333333333333,
-    "brier": 0.5086700000000002,
+    "n": 92,
+    "hitRate": 0.6413043478260869,
+    "rps": 0.16057065217391306,
+    "brier": 0.5122054347826088,
     "history": [
       {
         "date": "2026-06-11T19:00Z",
@@ -3266,6 +3285,28 @@
         "correct": true,
         "rps": 0.0317,
         "brier": 0.0852
+      },
+      {
+        "date": "2026-07-05T20:00Z",
+        "matchId": "760504",
+        "home": "Brazil",
+        "away": "Norway",
+        "predicted": "home",
+        "actual": "away",
+        "correct": false,
+        "rps": 0.4322,
+        "brier": 0.9114
+      },
+      {
+        "date": "2026-07-06T01:00Z",
+        "matchId": "760505",
+        "home": "Mexico",
+        "away": "England",
+        "predicted": "away",
+        "actual": "away",
+        "correct": true,
+        "rps": 0.1902,
+        "brier": 0.4312
       }
     ]
   }
