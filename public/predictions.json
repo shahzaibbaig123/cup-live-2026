@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T16:49:31+00:00",
+  "generatedAt": "2026-07-06T21:23:49+00:00",
   "meta": {
     "model": "Elo + Dixon-Coles Poisson + TimesFM form (hybrid)",
     "timesfmUsed": true,
@@ -1580,13 +1580,15 @@
       "awayId": "164",
       "stage": "round-of-16",
       "date": "2026-07-06T19:00Z",
-      "status": "pre",
+      "status": "post",
       "pHome": 0.2149,
       "pDraw": 0.2092,
       "pAway": 0.5759,
       "predicted": "away",
       "xHome": 0,
-      "xAway": 1
+      "xAway": 1,
+      "result": "away",
+      "score": "0-1"
     },
     "760507": {
       "home": "United States",
@@ -2291,10 +2293,10 @@
     }
   ],
   "accuracy": {
-    "n": 92,
-    "hitRate": 0.6413043478260869,
-    "rps": 0.16057065217391306,
-    "brier": 0.5122054347826088,
+    "n": 93,
+    "hitRate": 0.6451612903225806,
+    "rps": 0.16005913978494624,
+    "brier": 0.5095989247311828,
     "history": [
       {
         "date": "2026-06-11T19:00Z",
@@ -3307,6 +3309,17 @@
         "correct": true,
         "rps": 0.1902,
         "brier": 0.4312
+      },
+      {
+        "date": "2026-07-06T19:00Z",
+        "matchId": "760506",
+        "home": "Portugal",
+        "away": "Spain",
+        "predicted": "away",
+        "actual": "away",
+        "correct": true,
+        "rps": 0.113,
+        "brier": 0.2698
       }
     ]
   }
