@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T16:20:41+00:00",
+  "generatedAt": "2026-07-07T21:17:26+00:00",
   "meta": {
     "model": "Elo + Dixon-Coles Poisson + TimesFM form (hybrid)",
     "timesfmUsed": true,
@@ -1614,13 +1614,15 @@
       "awayId": "2620",
       "stage": "round-of-16",
       "date": "2026-07-07T16:00Z",
-      "status": "in",
+      "status": "post",
       "pHome": 0.8138,
       "pDraw": 0.1289,
       "pAway": 0.0573,
       "predicted": "home",
       "xHome": 2,
-      "xAway": 0
+      "xAway": 0,
+      "result": "home",
+      "score": "3-2"
     },
     "760508": {
       "home": "Switzerland",
@@ -1629,7 +1631,7 @@
       "awayId": "208",
       "stage": "round-of-16",
       "date": "2026-07-07T20:00Z",
-      "status": "pre",
+      "status": "in",
       "pHome": 0.297,
       "pDraw": 0.2231,
       "pAway": 0.4799,
@@ -2310,10 +2312,10 @@
     }
   ],
   "accuracy": {
-    "n": 94,
-    "hitRate": 0.648936170212766,
-    "rps": 0.16057872340425533,
-    "brier": 0.5091776595744681,
+    "n": 95,
+    "hitRate": 0.6526315789473685,
+    "rps": 0.15908842105263157,
+    "brier": 0.5043926315789474,
     "history": [
       {
         "date": "2026-06-11T19:00Z",
@@ -3348,6 +3350,17 @@
         "correct": true,
         "rps": 0.2089,
         "brier": 0.47
+      },
+      {
+        "date": "2026-07-07T16:00Z",
+        "matchId": "760509",
+        "home": "Argentina",
+        "away": "Egypt",
+        "predicted": "home",
+        "actual": "home",
+        "correct": true,
+        "rps": 0.019,
+        "brier": 0.0546
       }
     ]
   }
