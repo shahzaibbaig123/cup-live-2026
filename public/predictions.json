@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T21:23:49+00:00",
+  "generatedAt": "2026-07-07T06:01:47+00:00",
   "meta": {
     "model": "Elo + Dixon-Coles Poisson + TimesFM form (hybrid)",
     "timesfmUsed": true,
@@ -1597,13 +1597,15 @@
       "awayId": "459",
       "stage": "round-of-16",
       "date": "2026-07-07T00:00Z",
-      "status": "pre",
+      "status": "post",
       "pHome": 0.3283,
       "pDraw": 0.2285,
       "pAway": 0.4432,
       "predicted": "away",
       "xHome": 0,
-      "xAway": 1
+      "xAway": 1,
+      "result": "away",
+      "score": "1-4"
     },
     "760509": {
       "home": "Argentina",
@@ -1646,6 +1648,21 @@
       "pHome": 0.5692,
       "pDraw": 0.2096,
       "pAway": 0.2212,
+      "predicted": "home",
+      "xHome": 1,
+      "xAway": 0
+    },
+    "760511": {
+      "home": "Spain",
+      "away": "Belgium",
+      "homeId": "164",
+      "awayId": "459",
+      "stage": "quarterfinals",
+      "date": "2026-07-10T19:00Z",
+      "status": "pre",
+      "pHome": 0.7016,
+      "pDraw": 0.1741,
+      "pAway": 0.1243,
       "predicted": "home",
       "xHome": 1,
       "xAway": 0
@@ -2293,10 +2310,10 @@
     }
   ],
   "accuracy": {
-    "n": 93,
-    "hitRate": 0.6451612903225806,
-    "rps": 0.16005913978494624,
-    "brier": 0.5095989247311828,
+    "n": 94,
+    "hitRate": 0.648936170212766,
+    "rps": 0.16057872340425533,
+    "brier": 0.5091776595744681,
     "history": [
       {
         "date": "2026-06-11T19:00Z",
@@ -3320,6 +3337,17 @@
         "correct": true,
         "rps": 0.113,
         "brier": 0.2698
+      },
+      {
+        "date": "2026-07-07T00:00Z",
+        "matchId": "760507",
+        "home": "United States",
+        "away": "Belgium",
+        "predicted": "away",
+        "actual": "away",
+        "correct": true,
+        "rps": 0.2089,
+        "brier": 0.47
       }
     ]
   }
