@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T05:14:16+00:00",
+  "generatedAt": "2026-07-09T21:15:51+00:00",
   "meta": {
     "model": "Elo + Dixon-Coles Poisson + TimesFM form (hybrid)",
     "timesfmUsed": true,
@@ -1648,7 +1648,7 @@
       "awayId": "2869",
       "stage": "quarterfinals",
       "date": "2026-07-09T20:00Z",
-      "status": "pre",
+      "status": "in",
       "pHome": 0.5691,
       "pDraw": 0.2096,
       "pAway": 0.2213,
