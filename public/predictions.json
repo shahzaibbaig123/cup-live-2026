@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T21:15:51+00:00",
+  "generatedAt": "2026-07-10T05:57:40+00:00",
   "meta": {
     "model": "Elo + Dixon-Coles Poisson + TimesFM form (hybrid)",
     "timesfmUsed": true,
@@ -1648,13 +1648,15 @@
       "awayId": "2869",
       "stage": "quarterfinals",
       "date": "2026-07-09T20:00Z",
-      "status": "in",
+      "status": "post",
       "pHome": 0.5691,
       "pDraw": 0.2096,
       "pAway": 0.2213,
       "predicted": "home",
       "xHome": 1,
-      "xAway": 0
+      "xAway": 0,
+      "result": "home",
+      "score": "2-0"
     },
     "760511": {
       "home": "Spain",
@@ -2329,10 +2331,10 @@
     }
   ],
   "accuracy": {
-    "n": 96,
-    "hitRate": 0.6458333333333334,
-    "rps": 0.159090625,
-    "brier": 0.50874375,
+    "n": 97,
+    "hitRate": 0.6494845360824743,
+    "rps": 0.158659793814433,
+    "brier": 0.5063711340206186,
     "history": [
       {
         "date": "2026-06-11T19:00Z",
@@ -3389,6 +3391,17 @@
         "correct": false,
         "rps": 0.1593,
         "brier": 0.9221
+      },
+      {
+        "date": "2026-07-09T20:00Z",
+        "matchId": "760510",
+        "home": "France",
+        "away": "Morocco",
+        "predicted": "home",
+        "actual": "home",
+        "correct": true,
+        "rps": 0.1173,
+        "brier": 0.2786
       }
     ]
   }
