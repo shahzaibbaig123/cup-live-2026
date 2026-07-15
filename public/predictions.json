@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T20:52:48+00:00",
+  "generatedAt": "2026-07-15T04:44:14+00:00",
   "meta": {
     "model": "Elo + Dixon-Coles Poisson + TimesFM form (hybrid)",
     "timesfmUsed": true,
@@ -1716,13 +1716,15 @@
       "awayId": "164",
       "stage": "semifinals",
       "date": "2026-07-14T19:00Z",
-      "status": "in",
+      "status": "post",
       "pHome": 0.3675,
       "pDraw": 0.2292,
       "pAway": 0.4033,
       "predicted": "away",
       "xHome": 1,
-      "xAway": 1
+      "xAway": 1,
+      "result": "away",
+      "score": "0-2"
     },
     "760515": {
       "home": "England",
@@ -2367,10 +2369,10 @@
     }
   ],
   "accuracy": {
-    "n": 100,
-    "hitRate": 0.66,
-    "rps": 0.156771,
-    "brier": 0.498134,
+    "n": 101,
+    "hitRate": 0.6633663366336634,
+    "rps": 0.15765049504950493,
+    "brier": 0.4985841584158416,
     "history": [
       {
         "date": "2026-06-11T19:00Z",
@@ -3471,6 +3473,17 @@
         "correct": true,
         "rps": 0.0726,
         "brier": 0.1816
+      },
+      {
+        "date": "2026-07-14T19:00Z",
+        "matchId": "760514",
+        "home": "France",
+        "away": "Spain",
+        "predicted": "away",
+        "actual": "away",
+        "correct": true,
+        "rps": 0.2456,
+        "brier": 0.5436
       }
     ]
   }
