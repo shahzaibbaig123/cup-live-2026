@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T04:54:04+00:00",
+  "generatedAt": "2026-07-19T05:15:01+00:00",
   "meta": {
     "model": "Elo + Dixon-Coles Poisson + TimesFM form (hybrid)",
     "timesfmUsed": true,
@@ -1750,13 +1750,15 @@
       "awayId": "448",
       "stage": "3rd-place-match",
       "date": "2026-07-18T21:00Z",
-      "status": "pre",
+      "status": "post",
       "pHome": 0.4527,
       "pDraw": 0.2325,
       "pAway": 0.3148,
       "predicted": "home",
       "xHome": 1,
-      "xAway": 0
+      "xAway": 0,
+      "result": "away",
+      "score": "4-6"
     },
     "760517": {
       "home": "Spain",
@@ -2401,10 +2403,10 @@
     }
   ],
   "accuracy": {
-    "n": 102,
-    "hitRate": 0.6666666666666666,
-    "rps": 0.15785686274509803,
-    "brier": 0.49769607843137254,
+    "n": 103,
+    "hitRate": 0.6601941747572816,
+    "rps": 0.15959805825242715,
+    "brier": 0.49993689320388346,
     "history": [
       {
         "date": "2026-06-11T19:00Z",
@@ -3527,6 +3529,17 @@
         "correct": true,
         "rps": 0.1787,
         "brier": 0.408
+      },
+      {
+        "date": "2026-07-18T21:00Z",
+        "matchId": "760516",
+        "home": "France",
+        "away": "England",
+        "predicted": "home",
+        "actual": "away",
+        "correct": false,
+        "rps": 0.3372,
+        "brier": 0.7285
       }
     ]
   }
