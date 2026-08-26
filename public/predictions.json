@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-07-31T20:55:50+00:00",
+  "generatedAt": "2026-08-26T22:37:28+00:00",
   "meta": {
     "model": "Elo + Dixon-Coles Poisson + TimesFM form (hybrid)",
     "timesfmUsed": true,
     "nSims": 20000,
-    "betaPerElo": 0.00536,
-    "totalGoals": 2.733,
+    "betaPerElo": 0.00537,
+    "totalGoals": 2.735,
     "rho": 0.11
   },
   "matches": {
@@ -1786,9 +1786,9 @@
       "group": "Group H",
       "elo": 2316.8,
       "form": 0.978,
-      "winCup": 0.5037,
-      "reachFinal": 0.7065,
-      "reachR16": 0.9904,
+      "winCup": 0.5036,
+      "reachFinal": 0.7066,
+      "reachR16": 0.9905,
       "qualify": 1.0,
       "winGroup": 1.0
     },
@@ -1799,7 +1799,7 @@
       "group": "Group J",
       "elo": 2232.9,
       "form": 0.958,
-      "winCup": 0.2173,
+      "winCup": 0.2175,
       "reachFinal": 0.4547,
       "reachR16": 0.9869,
       "qualify": 1.0,
@@ -1812,9 +1812,9 @@
       "group": "Group L",
       "elo": 2190.5,
       "form": 0.967,
-      "winCup": 0.1238,
-      "reachFinal": 0.3013,
-      "reachR16": 0.9637,
+      "winCup": 0.1239,
+      "reachFinal": 0.3015,
+      "reachR16": 0.9638,
       "qualify": 1.0,
       "winGroup": 1.0
     },
@@ -1825,9 +1825,9 @@
       "group": "Group I",
       "elo": 2132.6,
       "form": 0.938,
-      "winCup": 0.0536,
+      "winCup": 0.0535,
       "reachFinal": 0.1215,
-      "reachR16": 0.9072,
+      "reachR16": 0.9073,
       "qualify": 1.0,
       "winGroup": 1.0
     },
@@ -1839,8 +1839,8 @@
       "elo": 2069.7,
       "form": 0.96,
       "winCup": 0.0238,
-      "reachFinal": 0.0698,
-      "reachR16": 0.8135,
+      "reachFinal": 0.0697,
+      "reachR16": 0.8138,
       "qualify": 1.0,
       "winGroup": 1.0
     },
@@ -1851,9 +1851,9 @@
       "group": "Group C",
       "elo": 2060.3,
       "form": 0.992,
-      "winCup": 0.0176,
-      "reachFinal": 0.075,
-      "reachR16": 0.7846,
+      "winCup": 0.0177,
+      "reachFinal": 0.0751,
+      "reachR16": 0.7848,
       "qualify": 1.0,
       "winGroup": 1.0
     },
@@ -1865,8 +1865,8 @@
       "elo": 2051.8,
       "form": 0.958,
       "winCup": 0.0138,
-      "reachFinal": 0.0404,
-      "reachR16": 0.7882,
+      "reachFinal": 0.0405,
+      "reachR16": 0.7883,
       "qualify": 1.0,
       "winGroup": 0.0
     },
@@ -1877,9 +1877,9 @@
       "group": "Group F",
       "elo": 2039.9,
       "form": 0.967,
-      "winCup": 0.0111,
-      "reachFinal": 0.0505,
-      "reachR16": 0.7235,
+      "winCup": 0.011,
+      "reachFinal": 0.0503,
+      "reachR16": 0.7236,
       "qualify": 1.0,
       "winGroup": 1.0
     },
@@ -1892,7 +1892,7 @@
       "form": 1.005,
       "winCup": 0.008,
       "reachFinal": 0.0411,
-      "reachR16": 0.7644,
+      "reachR16": 0.7645,
       "qualify": 1.0,
       "winGroup": 0.0
     },
@@ -1904,8 +1904,8 @@
       "elo": 2001.5,
       "form": 1.01,
       "winCup": 0.0072,
-      "reachFinal": 0.0269,
-      "reachR16": 0.9165,
+      "reachFinal": 0.0268,
+      "reachR16": 0.9166,
       "qualify": 1.0,
       "winGroup": 1.0
     },
@@ -1918,7 +1918,7 @@
       "form": 0.934,
       "winCup": 0.0046,
       "reachFinal": 0.0227,
-      "reachR16": 0.6459,
+      "reachR16": 0.6461,
       "qualify": 1.0,
       "winGroup": 0.0
     },
@@ -1931,7 +1931,7 @@
       "form": 0.944,
       "winCup": 0.004,
       "reachFinal": 0.0163,
-      "reachR16": 0.5971,
+      "reachR16": 0.5972,
       "qualify": 1.0,
       "winGroup": 1.0
     },
@@ -1955,9 +1955,9 @@
       "group": "Group B",
       "elo": 1985.7,
       "form": 0.913,
-      "winCup": 0.0034,
-      "reachFinal": 0.0232,
-      "reachR16": 0.8682,
+      "winCup": 0.0033,
+      "reachFinal": 0.0231,
+      "reachR16": 0.8684,
       "qualify": 1.0,
       "winGroup": 1.0
     },
@@ -2008,8 +2008,8 @@
       "elo": 1889.3,
       "form": 0.98,
       "winCup": 0.0003,
-      "reachFinal": 0.0026,
-      "reachR16": 0.2765,
+      "reachFinal": 0.0025,
+      "reachR16": 0.2764,
       "qualify": 1.0,
       "winGroup": 0.0
     },
@@ -2022,7 +2022,7 @@
       "form": 0.976,
       "winCup": 0.0003,
       "reachFinal": 0.0027,
-      "reachR16": 0.3541,
+      "reachR16": 0.3539,
       "qualify": 1.0,
       "winGroup": 0.0
     },
@@ -2074,7 +2074,7 @@
       "form": 0.954,
       "winCup": 0.0001,
       "reachFinal": 0.0017,
-      "reachR16": 0.2154,
+      "reachR16": 0.2152,
       "qualify": 1.0,
       "winGroup": 0.0
     },
@@ -2087,7 +2087,7 @@
       "form": 0.897,
       "winCup": 0.0001,
       "reachFinal": 0.0008,
-      "reachR16": 0.2356,
+      "reachR16": 0.2355,
       "qualify": 1.0,
       "winGroup": 0.0
     },
@@ -2100,7 +2100,7 @@
       "form": 0.989,
       "winCup": 0.0001,
       "reachFinal": 0.001,
-      "reachR16": 0.1865,
+      "reachR16": 0.1862,
       "qualify": 1.0,
       "winGroup": 0.0
     },
@@ -2113,7 +2113,7 @@
       "form": 0.981,
       "winCup": 0.0001,
       "reachFinal": 0.0004,
-      "reachR16": 0.0929,
+      "reachR16": 0.0926,
       "qualify": 1.0,
       "winGroup": 0.0
     },
@@ -2152,7 +2152,7 @@
       "form": 0.973,
       "winCup": 0.0,
       "reachFinal": 0.0,
-      "reachR16": 0.1318,
+      "reachR16": 0.1316,
       "qualify": 1.0,
       "winGroup": 0.0
     },
@@ -2243,7 +2243,7 @@
       "form": 0.905,
       "winCup": 0.0,
       "reachFinal": 0.0001,
-      "reachR16": 0.0364,
+      "reachR16": 0.0362,
       "qualify": 1.0,
       "winGroup": 0.0
     },
@@ -2282,7 +2282,7 @@
       "form": 0.991,
       "winCup": 0.0,
       "reachFinal": 0.0006,
-      "reachR16": 0.2118,
+      "reachR16": 0.2117,
       "qualify": 1.0,
       "winGroup": 0.0
     },
@@ -2334,7 +2334,7 @@
       "form": 0.974,
       "winCup": 0.0,
       "reachFinal": 0.0,
-      "reachR16": 0.0835,
+      "reachR16": 0.0834,
       "qualify": 1.0,
       "winGroup": 0.0
     },
@@ -2399,7 +2399,7 @@
       "form": 0.951,
       "winCup": 0.0,
       "reachFinal": 0.0001,
-      "reachR16": 0.0096,
+      "reachR16": 0.0095,
       "qualify": 1.0,
       "winGroup": 0.0
     }
